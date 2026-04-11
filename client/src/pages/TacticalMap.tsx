@@ -9,6 +9,7 @@ import { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import type { Army, Division, Brigade, UnitEquipment } from '@shared/schema';
+import { RAIL_ROUTES, PIPELINE_ROUTES } from '../data/infrastructure';
 
 // ─── UNIT GEOLOCATIONS ────────────────────────────────────────────────────────
 // Last known HQ positions — ISW / open-source OSINT. Approx ±10–30km.
@@ -317,8 +318,12 @@ export function TacticalMap({ armies, divs }: Props) {
   const [showFlot, setShowFlot] = useState(true);
   const [showLabels, setShowLabels] = useState(true);
   const [showOilStrikes, setShowOilStrikes] = useState(true);
+  const [showRail, setShowRail] = useState(false);
+  const [showPipelines, setShowPipelines] = useState(false);
   const [filter, setFilter] = useState<'all' | 'deployed' | 'strategic'>('all');
   const oilLayer = useRef<L.LayerGroup | null>(null);
+  const railLayer = useRef<L.LayerGroup | null>(null);
+  const pipelineLayer = useRef<L.LayerGroup | null>(null);
 
   // ── Build unit list ──
   const allUnits: TacticalUnit[] = [];
@@ -389,7 +394,35 @@ export function TacticalMap({ armies, divs }: Props) {
     markersLayer.current = L.layerGroup().addTo(map);
 
     oilLayer.current = L.layerGroup().addTo(map);
+    railLayer.current = L.layerGroup().addTo(map);
+    pipelineLayer.current = L.layerGroup().addTo(map);
     leafletMap.current = map;
+
+    // Inject CSS for animated flow lines
+    if (!document.getElementById('infra-flow-css')) {
+      const style = document.createElement('style');
+      style.id = 'infra-flow-css';
+      style.textContent = `
+        @keyframes flowForward {
+          to { stroke-dashoffset: -40; }
+        }
+        @keyframes flowForwardSlow {
+          to { stroke-dashoffset: -40; }
+        }
+        .flow-heavy path { animation: flowForward 0.8s linear infinite; }
+        .flow-moderate path { animation: flowForward 1.6s linear infinite; }
+        .flow-light path { animation: flowForward 3s linear infinite; }
+        .flow-inactive path { stroke-dasharray: 4 8 !important; }
+        .flow-high path { animation: flowForward 0.8s linear infinite; }
+        .flow-medium path { animation: flowForward 1.6s linear infinite; }
+        .flow-low path { animation: flowForward 3s linear infinite; }
+        @keyframes oilPulse {
+          0%, 100% { transform: scale(1); opacity: 0.9; }
+          50% { transform: scale(1.1); opacity: 1; }
+        }
+      `;
+      document.head.appendChild(style);
+    }
 
     // Click map to deselect
     map.on('click', () => setSelectedUnit(null));
@@ -510,6 +543,151 @@ export function TacticalMap({ armies, divs }: Props) {
       });
     }
   }, [showOilStrikes]);
+
+  // ── Railroad overlays ──
+  useEffect(() => {
+    if (!leafletMap.current || !railLayer.current) return;
+    railLayer.current.clearLayers();
+
+    if (showRail) {
+      RAIL_ROUTES.forEach(route => {
+        const color = route.traffic === 'heavy' ? '#ef4444' : route.traffic === 'moderate' ? '#eab308' : '#22c55e';
+        const weight = route.traffic === 'heavy' ? 3.5 : route.traffic === 'moderate' ? 2.5 : 2;
+        const cls = `flow-${route.traffic}`;
+
+        // Glow underneath
+        L.polyline(route.points, {
+          color, weight: weight + 4, opacity: 0.12, interactive: false,
+        }).addTo(railLayer.current!);
+
+        // Animated dashed line
+        const line = L.polyline(route.points, {
+          color, weight, opacity: 0.85,
+          dashArray: '8 12', className: cls,
+          interactive: true,
+        }).addTo(railLayer.current!);
+
+        // Tooltip
+        line.bindPopup(`
+          <div style="font-family:Inter,sans-serif;min-width:180px;max-width:240px;">
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;">
+              <span style="font-size:13px;">🚂</span>
+              <span style="font-size:11px;font-weight:700;color:#1a1a1a;">${route.name}</span>
+            </div>
+            <div style="display:flex;gap:5px;margin-bottom:4px;">
+              <span style="font-size:8px;font-weight:700;padding:1px 5px;border-radius:2px;
+                background:${color}22;color:${color};border:1px solid ${color}44;">
+                ${route.traffic.toUpperCase()} TRAFFIC
+              </span>
+              <span style="font-size:8px;padding:1px 5px;border-radius:2px;
+                background:rgba(0,0,0,0.05);color:#666;">
+                ${route.importance.toUpperCase()} PRIORITY
+              </span>
+            </div>
+            <div style="font-size:9px;color:#444;line-height:1.4;">${route.description}</div>
+            <div style="font-size:7px;color:#999;margin-top:4px;">SRC: ISW / Tochnyi.info / Euromaidan Press</div>
+          </div>
+        `, { className: 'rail-popup' });
+
+        // Mid-point label at low zoom
+        const mid = route.points[Math.floor(route.points.length / 2)];
+        L.marker(mid, {
+          icon: L.divIcon({
+            className: '',
+            html: `<div style="
+              background:rgba(13,17,23,0.85);
+              border:1px solid ${color}66;
+              border-radius:2px;
+              padding:0px 4px;
+              font-family:Inter,sans-serif;
+              font-size:7px;font-weight:600;
+              color:${color};
+              white-space:nowrap;
+              letter-spacing:0.02em;
+            ">🚂 ${route.name.length > 22 ? route.name.slice(0, 20) + '…' : route.name}</div>`,
+            iconAnchor: [50, 8],
+          }),
+          interactive: false,
+          zIndexOffset: -50,
+        }).addTo(railLayer.current!);
+      });
+    }
+  }, [showRail]);
+
+  // ── Pipeline overlays ──
+  useEffect(() => {
+    if (!leafletMap.current || !pipelineLayer.current) return;
+    pipelineLayer.current.clearLayers();
+
+    if (showPipelines) {
+      PIPELINE_ROUTES.forEach(route => {
+        const colorMap: Record<string, string> = {
+          high: '#ef4444', medium: '#eab308', low: '#22c55e', inactive: '#6b7280',
+        };
+        const color = colorMap[route.throughput] || '#6b7280';
+        const weight = route.throughput === 'high' ? 3.5 : route.throughput === 'medium' ? 2.8 : route.throughput === 'inactive' ? 1.5 : 2;
+        const cls = `flow-${route.throughput}`;
+        const typeIcon = route.type === 'oil' ? '🛢️' : '⛽';
+
+        // Glow
+        L.polyline(route.points, {
+          color, weight: weight + 4, opacity: 0.10, interactive: false,
+        }).addTo(pipelineLayer.current!);
+
+        // Animated dashed line
+        const line = L.polyline(route.points, {
+          color, weight, opacity: route.throughput === 'inactive' ? 0.4 : 0.85,
+          dashArray: route.throughput === 'inactive' ? '4 8' : '6 14',
+          className: cls, interactive: true,
+        }).addTo(pipelineLayer.current!);
+
+        // Popup
+        line.bindPopup(`
+          <div style="font-family:Inter,sans-serif;min-width:180px;max-width:260px;">
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;">
+              <span style="font-size:13px;">${typeIcon}</span>
+              <span style="font-size:11px;font-weight:700;color:#1a1a1a;">${route.name}</span>
+            </div>
+            <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:4px;">
+              <span style="font-size:8px;font-weight:700;padding:1px 5px;border-radius:2px;
+                background:${color}22;color:${color};border:1px solid ${color}44;">
+                ${route.throughput.toUpperCase()} FLOW
+              </span>
+              <span style="font-size:8px;padding:1px 5px;border-radius:2px;
+                background:rgba(0,0,0,0.05);color:#666;text-transform:uppercase;">
+                ${route.type}
+              </span>
+            </div>
+            <div style="font-size:9px;color:#333;line-height:1.35;margin-bottom:3px;font-weight:600;">${route.status}</div>
+            <div style="font-size:9px;color:#555;line-height:1.4;">${route.description}</div>
+            <div style="font-size:7px;color:#999;margin-top:4px;">SRC: Reuters / S&P Global / Euromaidan Press</div>
+          </div>
+        `, { className: 'pipeline-popup' });
+
+        // Label
+        const mid = route.points[Math.floor(route.points.length / 2)];
+        L.marker(mid, {
+          icon: L.divIcon({
+            className: '',
+            html: `<div style="
+              background:rgba(13,17,23,0.85);
+              border:1px solid ${color}66;
+              border-radius:2px;
+              padding:0px 4px;
+              font-family:Inter,sans-serif;
+              font-size:7px;font-weight:600;
+              color:${color};
+              white-space:nowrap;
+              letter-spacing:0.02em;
+            ">${typeIcon} ${route.name.length > 22 ? route.name.slice(0, 20) + '…' : route.name}</div>`,
+            iconAnchor: [55, 8],
+          }),
+          interactive: false,
+          zIndexOffset: -50,
+        }).addTo(pipelineLayer.current!);
+      });
+    }
+  }, [showPipelines]);
 
   // ── Unit markers ──
   useEffect(() => {
@@ -698,6 +876,8 @@ export function TacticalMap({ armies, divs }: Props) {
             { label: 'FLOT Line', val: showFlot, set: setShowFlot },
             { label: 'Unit Labels', val: showLabels, set: setShowLabels },
             { label: 'Oil Strikes', val: showOilStrikes, set: setShowOilStrikes },
+            { label: 'Rail Lines', val: showRail, set: setShowRail },
+            { label: 'Pipelines', val: showPipelines, set: setShowPipelines },
           ].map(({ label, val, set }) => (
             <label key={label} style={{ display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', marginBottom: 6 }}>
               <div onClick={() => set(!val)} style={{
@@ -763,6 +943,45 @@ export function TacticalMap({ armies, divs }: Props) {
             <div style={{ fontSize: 8, color: 'rgba(255,255,255,0.3)', marginTop: 3 }}>
               Click any unit to show weapon range ring
             </div>
+            {showRail && (
+              <div style={{ marginTop: 5, paddingTop: 5, borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+                <div style={{ fontSize: 9, color: '#a78bfa', fontWeight: 700, marginBottom: 3, letterSpacing: '0.03em' }}>
+                  🚂 RAIL LINES ({RAIL_ROUTES.length})
+                </div>
+                {[
+                  ['HEAVY', '#ef4444'],
+                  ['MODERATE', '#eab308'],
+                  ['LIGHT', '#22c55e'],
+                ].map(([lbl, col]) => (
+                  <div key={lbl} style={{ display: 'flex', alignItems: 'center', gap: 5, marginBottom: 2 }}>
+                    <div style={{ width: 16, height: 2, background: col as string, borderRadius: 1 }} />
+                    <span style={{ fontSize: 8, color: 'rgba(255,255,255,0.45)' }}>{lbl}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+            {showPipelines && (
+              <div style={{ marginTop: 5, paddingTop: 5, borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+                <div style={{ fontSize: 9, color: '#60a5fa', fontWeight: 700, marginBottom: 3, letterSpacing: '0.03em' }}>
+                  🛢️ PIPELINES ({PIPELINE_ROUTES.length})
+                </div>
+                {[
+                  ['HIGH FLOW', '#ef4444'],
+                  ['MEDIUM', '#eab308'],
+                  ['LOW/REDUCED', '#22c55e'],
+                  ['INACTIVE', '#6b7280'],
+                ].map(([lbl, col]) => (
+                  <div key={lbl} style={{ display: 'flex', alignItems: 'center', gap: 5, marginBottom: 2 }}>
+                    <div style={{ width: 16, height: 2, background: col as string, borderRadius: 1, opacity: lbl === 'INACTIVE' ? 0.5 : 1 }} />
+                    <span style={{ fontSize: 8, color: 'rgba(255,255,255,0.45)' }}>{lbl}</span>
+                  </div>
+                ))}
+                <div style={{ display: 'flex', gap: 8, marginTop: 3 }}>
+                  <span style={{ fontSize: 7, color: 'rgba(255,255,255,0.3)' }}>🛢️ Oil</span>
+                  <span style={{ fontSize: 7, color: 'rgba(255,255,255,0.3)' }}>⛽ Gas</span>
+                </div>
+              </div>
+            )}
           </div>
         </div>
 

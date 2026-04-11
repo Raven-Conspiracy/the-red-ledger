@@ -275,6 +275,28 @@ export const KNOWLEDGE_BASE: KBEntry[] = [
     question: 'What is Ukraine\'s defence industry capacity?',
     answer: 'Ukraine\'s defence industry has reached $50B/year capacity. 200+ drone companies operate in the ecosystem. First defence unicorn: UForce (Magura drone maker, $1B+). Key capabilities: 10M FPV drones planned for 2026; long-range strike drones reaching 1,300+ km; interceptor drones (70% kill rate over Kyiv); naval drones that have reshaped Black Sea warfare; domestic 152mm ammunition production; EW systems; AI-guided autonomous munitions.',
   },
+  // ─── Rail & Pipeline Infrastructure ──────────────────────────────
+  {
+    id: 'rail-overview',
+    category: 'rail',
+    keywords: ['rail', 'railroad', 'railway', 'train', 'logistics', 'supply', 'lines', 'routes', 'traffic'],
+    question: 'What railroad lines are shown on the map?',
+    answer: 'The tactical map shows 14 major Russian railroad routes color-coded by traffic density: RED = heavy military/logistics traffic, YELLOW = moderate, GREEN = light. Key routes include Trans-Siberian (Moscow–Novosibirsk), Moscow–Rostov–Krasnodar (primary southern supply), Belgorod–Kursk–Moscow (northern front spine), Rostov–Mariupol–Donetsk (newly opened 2024-2025), and the Crimea Bridge/Kerch corridor. The animated dashing shows live flow direction — faster animation means heavier traffic.',
+  },
+  {
+    id: 'pipeline-overview',
+    category: 'oil',
+    keywords: ['pipeline', 'oil', 'gas', 'druzhba', 'turkstream', 'nord', 'stream', 'flow', 'throughput', 'energy'],
+    question: 'What pipelines are shown on the map?',
+    answer: 'The tactical map displays 13 major Russian oil and gas pipelines color-coded by throughput: RED = high flow, YELLOW = medium, GREEN = low/reduced, GRAY = inactive. Key pipelines include Druzhba (world\'s longest oil pipeline — northern branch reduced, southern branch suspended since Jan 2026), BPS-1/BPS-2 (Baltic exports — halted after UA drone strikes, ~40% of RU oil exports offline), TurkStream and Blue Stream (fully operational gas to Turkey), Nord Stream (permanently inactive since 2022 sabotage), and Urengoy–Uzhhorod (transit ended Jan 2025). Oil pipelines marked with 🛢️, gas with ⛽.',
+  },
+  {
+    id: 'pipeline-strikes',
+    category: 'oil',
+    keywords: ['pipeline', 'strike', 'disrupted', 'damaged', 'offline', 'export', 'capacity', 'baltic', 'primorsk', 'ust-luga'],
+    question: 'How have Ukrainian strikes affected Russian pipelines?',
+    answer: 'Ukrainian drone strikes have severely disrupted Russia\'s oil export infrastructure. Primorsk terminal (BPS-1) and Ust-Luga terminal (BPS-2) were both struck in Mar 2026, taking approximately 40% of Russia\'s total oil export capacity offline. The Druzhba southern branch through Ukraine has been suspended since Jan 2026 when Russia struck the Brody pumping station. The Novorossiysk/CPC terminal has been attacked multiple times. Russia is increasingly relying on the ESPO pipeline (eastward to China) and TurkStream/Blue Stream (gas to Turkey) as western routes are degraded.',
+  },
 ];
 
 // ─── TF-IDF Search Engine ─────────────────────────────────────────
