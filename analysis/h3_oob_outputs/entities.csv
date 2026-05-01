@@ -1,0 +1,72 @@
+id,kind,name,parent_id,parent_kind,district_id,type,strength_pct,hq,notes,is_guards
+1gta,army,1st Guards Tank Army,mmd,district,mmd,tank_army,55.0,Odintsovo,Severely attrited; multiple divisions rebuilt from remnants,False
+20gca,army,20th Guards Combined Arms Army,mmd,district,mmd,combined_arms_army,60.0,Voronezh,Deployed to Lyman sector,False
+6ca,army,6th Combined Arms Army,lmd,district,lmd,combined_arms_army,70.0,Agalatovo,Deployed North Kharkiv,False
+11ac,army,11th Army Corps,lmd,district,lmd,army_corps,85.0,Kaliningrad,Baltic defense posture,False
+14ac,army,14th Army Corps,lmd,district,lmd,army_corps,80.0,Murmansk,Arctic / Northern Fleet,False
+44ac,army,44th Army Corps,lmd,district,lmd,army_corps,65.0,Petrozavodsk,Deployed Sumy Oblast,False
+3gca,army,3rd Guards Combined Arms Army,smd,district,smd,combined_arms_army,62.0,Luhansk,Siversk sector,False
+8gca,army,8th Guards Combined Arms Army,smd,district,smd,combined_arms_army,58.0,Novocherkassk,Heavy losses; Donetsk main effort,False
+18ca,army,18th Combined Arms Army,smd,district,smd,combined_arms_army,70.0,Sevastopol,Kherson / Dnieper axis,False
+49ca,army,49th Combined Arms Army,smd,district,smd,combined_arms_army,72.0,Stavropol,Zaporozhye axis,False
+51ca,army,51st Combined Arms Army,smd,district,smd,combined_arms_army,55.0,Donetsk,Former DNR I Corps; Donetsk central,False
+58gca,army,58th Guards Combined Arms Army,smd,district,smd,combined_arms_army,65.0,Vladikavkaz,South Donetsk / Zaporozhye,False
+2gca,army,2nd Guards Combined Arms Army,cmd,district,cmd,combined_arms_army,60.0,Samara,Deployed Kupyansk sector,False
+41gca,army,41st Guards Combined Arms Army,cmd,district,cmd,combined_arms_army,58.0,Novosibirsk,Deployed Central Donetsk,False
+3ac,army,3rd Army Corps,cmd,district,cmd,army_corps,50.0,Mulino,Reserve / mobilization corps; heavy attrition,False
+5gca,army,5th Guards Combined Arms Army,emd,district,emd,combined_arms_army,62.0,Ussuriysk,South Donetsk,False
+29gca,army,29th Guards Combined Arms Army,emd,district,emd,combined_arms_army,55.0,Chita,South Donetsk / Velyka Novosilka,False
+35ca,army,35th Combined Arms Army,emd,district,emd,combined_arms_army,58.0,Belogorsk,South Donetsk,False
+36ca,army,36th Combined Arms Army,emd,district,emd,combined_arms_army,60.0,Ulan-Ude,Deployed Vuhledar / Zaporozhye,False
+68ac,army,68th Army Corps,emd,district,emd,army_corps,78.0,Yuzhno-Sakhalinsk,Sakhalin / Pacific defense,False
+2gmd,division,2nd Guards 'Tamanskaya' Motor Rifle Division,1gta,army,mmd,motor_rifle,50.0,Alabino,Heavily engaged near Lyman,False
+4gtd,division,4th Guards 'Kantemirovskaya' Tank Division,1gta,army,mmd,tank,45.0,Naro-Fominsk,Severe losses; partially rebuilt,False
+144gmd,division,144th Guards Motor Rifle Division,20gca,army,mmd,motor_rifle,58.0,Yelnya,Lyman / Kreminna sector,False
+68gmd,division,68th Guards Motor Rifle Division,6ca,army,lmd,motor_rifle,65.0,Agalatovo,N Kharkiv,False
+69gmd,division,69th Guards Motor Rifle Division,6ca,army,lmd,motor_rifle,62.0,Vyborg,N Kharkiv,False
+72md,division,72nd Motor Rifle Division,44ac,army,lmd,motor_rifle,60.0,Petrozavodsk,Sumy Oblast,False
+47gtd,division,47th Guards Tank Division,44ac,army,lmd,tank,55.0,Mulino,Newly formed 2022; N Kharkiv,False
+150md,division,150th Motor Rifle Division,8gca,army,smd,motor_rifle,52.0,Novocherkassk,Donetsk central,False
+42gmd,division,42nd Guards Motor Rifle Division,8gca,army,smd,motor_rifle,55.0,Khankala,Donetsk; incl. Chechen elements,False
+3gmd,division,3rd Guards Motor Rifle Division,3gca,army,smd,motor_rifle,60.0,Luhansk,Siversk sector,False
+90gtd,division,90th Guards Tank Division,2gca,army,cmd,tank,52.0,Chelyabinsk,Heavy losses; Kupyansk,False
+73md,division,73rd Mechanized Division,41gca,army,cmd,motor_rifle,55.0,Novosibirsk,Newly raised 2024,False
+74md,division,74th Mechanized Division,41gca,army,cmd,motor_rifle,55.0,Yurga,Newly raised 2024,False
+127md,division,127th Motor Rifle Division,5gca,army,emd,motor_rifle,58.0,Sergeyevka,South Donetsk,False
+36bmd,division,36th Combined Arms Brigade / Division,36ca,army,emd,motor_rifle,60.0,Ulan-Ude,Vuhledar axis,False
+27mrb,brigade,27th Guards Motor Rifle Brigade,1gta,army,mmd,motor_rifle,48.0,,Kupyansk sector,True
+6tb,brigade,6th Tank Regiment (former brigade),4gtd,division,mmd,tank,42.0,,,True
+13tb,brigade,13th Guards Motor Rifle Regiment,2gmd,division,mmd,motor_rifle,50.0,,,True
+15mrr,brigade,15th Guards Motor Rifle Regiment,2gmd,division,mmd,motor_rifle,48.0,,,True
+252mrr,brigade,252nd Motor Rifle Regiment,144gmd,division,mmd,motor_rifle,55.0,,,False
+254mrr,brigade,254th Motor Rifle Regiment,144gmd,division,mmd,motor_rifle,55.0,,,False
+448mrr,brigade,448th Motor Rifle Regiment,144gmd,division,mmd,motor_rifle,50.0,,,False
+1009mrr,brigade,1009th Motor Rifle Regiment,69gmd,division,lmd,motor_rifle,62.0,,,False
+1008mrr,brigade,1008th Motor Rifle Regiment,68gmd,division,lmd,motor_rifle,60.0,,,False
+155nb,brigade,155th Guards Naval Infantry Brigade → 55th Marine Div,44ac,army,lmd,naval_infantry,50.0,,Reorganized to 55th Marine Division; understrength,True
+128mrb,brigade,128th Guards Motor Rifle Brigade,44ac,army,lmd,motor_rifle,62.0,,Sumy Oblast,True
+30mrr,brigade,30th Motor Rifle Regiment,72md,division,lmd,motor_rifle,58.0,,,False
+41mrr,brigade,41st Motor Rifle Regiment,72md,division,lmd,motor_rifle,55.0,,,False
+18gmd_11,brigade,18th Guards Motor Rifle Division (elements),11ac,army,lmd,motor_rifle,75.0,,Baltic / Kaliningrad,True
+200mrb,brigade,71st Guards Motor Rifle Division (former 200th Bde),14ac,army,lmd,motor_rifle,68.0,,Reorganized to 71st MRD; Arctic,True
+80amrb,brigade,80th Arctic Motor Rifle Brigade,14ac,army,lmd,motor_rifle,80.0,,Arctic trained,False
+19mrb,brigade,19th Motor Rifle Brigade,58gca,army,smd,motor_rifle,60.0,,,False
+136gmrb,brigade,136th Guards Motor Rifle Brigade,58gca,army,smd,motor_rifle,58.0,,,True
+810nb,brigade,810th Guards Naval Infantry Brigade,18ca,army,smd,naval_infantry,55.0,,Black Sea Fleet; Sumy / Kherson,True
+1mrb_51,brigade,1st Motor Rifle Brigade,51ca,army,smd,motor_rifle,52.0,,,False
+5mrb_51,brigade,5th Motor Rifle Brigade,51ca,army,smd,motor_rifle,50.0,,,False
+9mrb_51,brigade,9th Motor Rifle Brigade,51ca,army,smd,motor_rifle,50.0,,,False
+110mrb_51,brigade,110th Motor Rifle Brigade,51ca,army,smd,motor_rifle,48.0,,,False
+114mrb_51,brigade,114th Motor Rifle Brigade,51ca,army,smd,motor_rifle,48.0,,,False
+132mrb_51,brigade,132nd Motor Rifle Brigade,51ca,army,smd,motor_rifle,50.0,,,False
+103rr,brigade,103rd Motor Rifle Regiment,150md,division,smd,motor_rifle,50.0,,,False
+68mrr_42,brigade,70th Guards Motor Rifle Regiment,42gmd,division,smd,motor_rifle,52.0,,,True
+90b_3reg,brigade,275th Motor Rifle Regiment,90gtd,division,cmd,motor_rifle,50.0,,,False
+90b_6reg,brigade,6th Tank Regiment,90gtd,division,cmd,tank,48.0,,,False
+37mrb,brigade,37th Guards Motor Rifle Brigade,36ca,army,emd,motor_rifle,58.0,,,True
+5tb,brigade,5th Guards Tank Brigade,36ca,army,emd,tank,55.0,,,True
+143mrr,brigade,143rd Motor Rifle Regiment,127md,division,emd,motor_rifle,55.0,,,False
+218tr,brigade,218th Tank Regiment,127md,division,emd,tank,52.0,,,False
+83aab,brigade,83rd Guards Air Assault Brigade,5gca,army,emd,air_assault,60.0,,,True
+36mrb_35,brigade,36th Combined Arms Rgt,35ca,army,emd,motor_rifle,60.0,,,False
+2spetz,brigade,2nd Guards Spetsnaz Brigade (GRU),1gta,army,mmd,spetsnaz,78.0,,,True

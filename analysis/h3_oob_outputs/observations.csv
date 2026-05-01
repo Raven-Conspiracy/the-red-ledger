@@ -1,0 +1,134 @@
+obs_id,entity_id,sector_key,lat,lon,sigma_km,source,reliability,specificity,observed_at,note
+deploy:20gca:lyman,20gca,lyman,48.98,37.81,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Deployed to Lyman sector'
+deploy:6ca:kharkiv,6ca,kharkiv,49.99,36.23,45.0,notes-deployment,0.8,0.55,2026-05-01,sector parsed from notes='Deployed North Kharkiv'
+deploy:6ca:north kharkiv,6ca,north kharkiv,50.4,36.5,45.0,notes-deployment,0.8,0.55,2026-05-01,sector parsed from notes='Deployed North Kharkiv'
+deploy:11ac:baltic,11ac,baltic,55.5,25.0,100.0,notes-deployment,0.8,0.2,2026-05-01,sector parsed from notes='Baltic defense posture'
+deploy:14ac:arctic,14ac,arctic,68.97,33.08,100.0,notes-deployment,0.8,0.2,2026-05-01,sector parsed from notes='Arctic / Northern Fleet'
+deploy:44ac:sumy,44ac,sumy,50.91,34.8,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Deployed Sumy Oblast'
+deploy:44ac:sumy oblast,44ac,sumy oblast,50.91,34.8,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Deployed Sumy Oblast'
+deploy:3gca:siversk,3gca,siversk,48.89,38.11,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Siversk sector'
+deploy:8gca:donetsk,8gca,donetsk,48.02,37.8,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='Heavy losses; Donetsk main effort'
+deploy:18ca:kherson,18ca,kherson,46.64,32.62,50.0,notes-deployment,0.8,0.5,2026-05-01,sector parsed from notes='Kherson / Dnieper axis'
+deploy:18ca:kherson / dnieper axis,18ca,kherson / dnieper axis,46.8,33.1,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Kherson / Dnieper axis'
+deploy:18ca:dnieper,18ca,dnieper,46.9,33.5,60.0,notes-deployment,0.8,0.4,2026-05-01,sector parsed from notes='Kherson / Dnieper axis'
+deploy:49ca:zaporozhye,49ca,zaporozhye,47.4,35.7,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Zaporozhye axis'
+deploy:49ca:zaporozhye axis,49ca,zaporozhye axis,47.4,35.7,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Zaporozhye axis'
+deploy:51ca:donetsk,51ca,donetsk,48.02,37.8,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='Former DNR I Corps; Donetsk central'
+deploy:51ca:donetsk central,51ca,donetsk central,48.05,37.85,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='Former DNR I Corps; Donetsk central'
+deploy:58gca:donetsk,58gca,donetsk,48.02,37.8,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='South Donetsk / Zaporozhye'
+deploy:58gca:south donetsk,58gca,south donetsk,47.7,37.2,50.0,notes-deployment,0.8,0.5,2026-05-01,sector parsed from notes='South Donetsk / Zaporozhye'
+deploy:58gca:zaporozhye,58gca,zaporozhye,47.4,35.7,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='South Donetsk / Zaporozhye'
+deploy:2gca:kupyansk,2gca,kupyansk,49.71,37.62,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Deployed Kupyansk sector'
+deploy:41gca:donetsk,41gca,donetsk,48.02,37.8,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='Deployed Central Donetsk'
+deploy:41gca:central donetsk,41gca,central donetsk,48.1,37.75,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='Deployed Central Donetsk'
+deploy:5gca:donetsk,5gca,donetsk,48.02,37.8,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='South Donetsk'
+deploy:5gca:south donetsk,5gca,south donetsk,47.7,37.2,50.0,notes-deployment,0.8,0.5,2026-05-01,sector parsed from notes='South Donetsk'
+deploy:29gca:donetsk,29gca,donetsk,48.02,37.8,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='South Donetsk / Velyka Novosilka'
+deploy:29gca:velyka novosilka,29gca,velyka novosilka,47.85,36.87,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='South Donetsk / Velyka Novosilka'
+deploy:29gca:south donetsk,29gca,south donetsk,47.7,37.2,50.0,notes-deployment,0.8,0.5,2026-05-01,sector parsed from notes='South Donetsk / Velyka Novosilka'
+deploy:35ca:donetsk,35ca,donetsk,48.02,37.8,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='South Donetsk'
+deploy:35ca:south donetsk,35ca,south donetsk,47.7,37.2,50.0,notes-deployment,0.8,0.5,2026-05-01,sector parsed from notes='South Donetsk'
+deploy:36ca:vuhledar,36ca,vuhledar,47.78,37.26,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Deployed Vuhledar / Zaporozhye'
+deploy:36ca:zaporozhye,36ca,zaporozhye,47.4,35.7,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Deployed Vuhledar / Zaporozhye'
+deploy:68ac:sakhalin,68ac,sakhalin,46.96,142.74,200.0,notes-deployment,0.8,0.2,2026-05-01,sector parsed from notes='Sakhalin / Pacific defense'
+deploy:68ac:pacific,68ac,pacific,46.96,142.74,200.0,notes-deployment,0.8,0.2,2026-05-01,sector parsed from notes='Sakhalin / Pacific defense'
+deploy:2gmd:lyman,2gmd,lyman,48.98,37.81,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Heavily engaged near Lyman'
+deploy:144gmd:kreminna,144gmd,kreminna,49.05,38.21,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Lyman / Kreminna sector'
+deploy:144gmd:lyman,144gmd,lyman,48.98,37.81,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Lyman / Kreminna sector'
+deploy:68gmd:north kharkiv,68gmd,north kharkiv,50.4,36.5,45.0,notes-deployment,0.8,0.55,2026-05-01,sector parsed from notes='N Kharkiv'
+deploy:68gmd:kharkiv,68gmd,kharkiv,49.99,36.23,45.0,notes-deployment,0.8,0.55,2026-05-01,sector parsed from notes='N Kharkiv'
+deploy:69gmd:north kharkiv,69gmd,north kharkiv,50.4,36.5,45.0,notes-deployment,0.8,0.55,2026-05-01,sector parsed from notes='N Kharkiv'
+deploy:69gmd:kharkiv,69gmd,kharkiv,49.99,36.23,45.0,notes-deployment,0.8,0.55,2026-05-01,sector parsed from notes='N Kharkiv'
+deploy:72md:sumy,72md,sumy,50.91,34.8,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Sumy Oblast'
+deploy:72md:sumy oblast,72md,sumy oblast,50.91,34.8,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Sumy Oblast'
+deploy:47gtd:north kharkiv,47gtd,north kharkiv,50.4,36.5,45.0,notes-deployment,0.8,0.55,2026-05-01,sector parsed from notes='Newly formed 2022; N Kharkiv'
+deploy:47gtd:kharkiv,47gtd,kharkiv,49.99,36.23,45.0,notes-deployment,0.8,0.55,2026-05-01,sector parsed from notes='Newly formed 2022; N Kharkiv'
+deploy:150md:donetsk,150md,donetsk,48.02,37.8,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='Donetsk central'
+deploy:150md:donetsk central,150md,donetsk central,48.05,37.85,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='Donetsk central'
+deploy:42gmd:donetsk,42gmd,donetsk,48.02,37.8,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='Donetsk; incl. Chechen elements'
+deploy:3gmd:siversk,3gmd,siversk,48.89,38.11,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Siversk sector'
+deploy:90gtd:kupyansk,90gtd,kupyansk,49.71,37.62,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Heavy losses; Kupyansk'
+deploy:127md:donetsk,127md,donetsk,48.02,37.8,40.0,notes-deployment,0.8,0.6,2026-05-01,sector parsed from notes='South Donetsk'
+deploy:127md:south donetsk,127md,south donetsk,47.7,37.2,50.0,notes-deployment,0.8,0.5,2026-05-01,sector parsed from notes='South Donetsk'
+deploy:36bmd:vuhledar,36bmd,vuhledar,47.78,37.26,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Vuhledar axis'
+deploy:27mrb:kupyansk,27mrb,kupyansk,49.71,37.62,35.0,notes-deployment,0.8,0.65,2026-05-01,sector parsed from notes='Kupyansk sector'
+deploy:128mrb:sumy,128mrb,sumy,50.91,34.8,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Sumy Oblast'
+deploy:128mrb:sumy oblast,128mrb,sumy oblast,50.91,34.8,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Sumy Oblast'
+deploy:18gmd_11:kaliningrad,18gmd_11,kaliningrad,54.71,20.51,50.0,notes-deployment,0.8,0.5,2026-05-01,sector parsed from notes='Baltic / Kaliningrad'
+deploy:18gmd_11:baltic,18gmd_11,baltic,55.5,25.0,100.0,notes-deployment,0.8,0.2,2026-05-01,sector parsed from notes='Baltic / Kaliningrad'
+deploy:200mrb:arctic,200mrb,arctic,68.97,33.08,100.0,notes-deployment,0.8,0.2,2026-05-01,sector parsed from notes='Reorganized to 71st MRD; Arctic'
+deploy:80amrb:arctic,80amrb,arctic,68.97,33.08,100.0,notes-deployment,0.8,0.2,2026-05-01,sector parsed from notes='Arctic trained'
+deploy:810nb:kherson,810nb,kherson,46.64,32.62,50.0,notes-deployment,0.8,0.5,2026-05-01,sector parsed from notes='Black Sea Fleet; Sumy / Kherson'
+deploy:810nb:sumy,810nb,sumy,50.91,34.8,55.0,notes-deployment,0.8,0.44999999999999996,2026-05-01,sector parsed from notes='Black Sea Fleet; Sumy / Kherson'
+deploy:810nb:black sea fleet,810nb,black sea fleet,44.62,33.52,60.0,notes-deployment,0.8,0.4,2026-05-01,sector parsed from notes='Black Sea Fleet; Sumy / Kherson'
+hq:1gta,1gta,garrison-hq,55.65,37.27,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=1 GTA
+hq:20gca,20gca,garrison-hq,51.67,39.18,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=20 GCAA
+hq:6ca,6ca,garrison-hq,59.93,30.32,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=6 CAA
+hq:11ac,11ac,garrison-hq,54.71,20.51,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=11 AC
+hq:14ac,14ac,garrison-hq,68.97,33.08,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=14 AC
+hq:44ac,44ac,garrison-hq,44.72,37.77,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=44 AC
+hq:3gca,3gca,garrison-hq,48.57,39.31,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=3 GCAA
+hq:8gca,8gca,garrison-hq,47.42,37.55,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=8 GCAA
+hq:18ca,18ca,garrison-hq,44.62,33.52,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=18 CAA
+hq:49ca,49ca,garrison-hq,45.04,41.97,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=49 CAA
+hq:51ca,51ca,garrison-hq,47.1,37.25,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=51 CAA
+hq:58gca,58gca,garrison-hq,47.14,35.4,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=58 GCAA
+hq:2gca,2gca,garrison-hq,53.2,50.15,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=2 GCAA
+hq:41gca,41gca,garrison-hq,54.99,82.9,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=41 GCAA
+hq:3ac,3ac,garrison-hq,55.58,43.6,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=3 AC
+hq:5gca,5gca,garrison-hq,43.79,131.96,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=5 GCAA
+hq:29gca,29gca,garrison-hq,52.04,113.5,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=29 GCAA
+hq:35ca,35ca,garrison-hq,50.92,128.47,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=35 CAA
+hq:36ca,36ca,garrison-hq,51.83,107.61,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=36 CAA
+hq:68ac,68ac,garrison-hq,46.96,142.74,120.0,garrison-hq,0.55,0.25,2026-05-01,static garrison label=68 AC
+inherit:73md:donetsk,73md,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 41gca
+inherit:73md:central donetsk,73md,central donetsk,48.1,37.75,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 41gca
+inherit:74md:donetsk,74md,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 41gca
+inherit:74md:central donetsk,74md,central donetsk,48.1,37.75,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 41gca
+inherit:252mrr:lyman,252mrr,lyman,48.98,37.81,52.5,parent-inheritance,0.52,0.39,2026-05-01,inherited from parent 20gca
+inherit:254mrr:lyman,254mrr,lyman,48.98,37.81,52.5,parent-inheritance,0.52,0.39,2026-05-01,inherited from parent 20gca
+inherit:448mrr:lyman,448mrr,lyman,48.98,37.81,52.5,parent-inheritance,0.52,0.39,2026-05-01,inherited from parent 20gca
+inherit:1009mrr:kharkiv,1009mrr,kharkiv,49.99,36.23,67.5,parent-inheritance,0.52,0.33,2026-05-01,inherited from parent 6ca
+inherit:1009mrr:north kharkiv,1009mrr,north kharkiv,50.4,36.5,67.5,parent-inheritance,0.52,0.33,2026-05-01,inherited from parent 6ca
+inherit:1008mrr:kharkiv,1008mrr,kharkiv,49.99,36.23,67.5,parent-inheritance,0.52,0.33,2026-05-01,inherited from parent 6ca
+inherit:1008mrr:north kharkiv,1008mrr,north kharkiv,50.4,36.5,67.5,parent-inheritance,0.52,0.33,2026-05-01,inherited from parent 6ca
+inherit:155nb:sumy,155nb,sumy,50.91,34.8,82.5,parent-inheritance,0.52,0.26999999999999996,2026-05-01,inherited from parent 44ac
+inherit:155nb:sumy oblast,155nb,sumy oblast,50.91,34.8,82.5,parent-inheritance,0.52,0.26999999999999996,2026-05-01,inherited from parent 44ac
+inherit:30mrr:sumy,30mrr,sumy,50.91,34.8,82.5,parent-inheritance,0.52,0.26999999999999996,2026-05-01,inherited from parent 44ac
+inherit:30mrr:sumy oblast,30mrr,sumy oblast,50.91,34.8,82.5,parent-inheritance,0.52,0.26999999999999996,2026-05-01,inherited from parent 44ac
+inherit:41mrr:sumy,41mrr,sumy,50.91,34.8,82.5,parent-inheritance,0.52,0.26999999999999996,2026-05-01,inherited from parent 44ac
+inherit:41mrr:sumy oblast,41mrr,sumy oblast,50.91,34.8,82.5,parent-inheritance,0.52,0.26999999999999996,2026-05-01,inherited from parent 44ac
+inherit:19mrb:donetsk,19mrb,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 58gca
+inherit:19mrb:south donetsk,19mrb,south donetsk,47.7,37.2,75.0,parent-inheritance,0.52,0.3,2026-05-01,inherited from parent 58gca
+inherit:19mrb:zaporozhye,19mrb,zaporozhye,47.4,35.7,82.5,parent-inheritance,0.52,0.26999999999999996,2026-05-01,inherited from parent 58gca
+inherit:136gmrb:donetsk,136gmrb,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 58gca
+inherit:136gmrb:south donetsk,136gmrb,south donetsk,47.7,37.2,75.0,parent-inheritance,0.52,0.3,2026-05-01,inherited from parent 58gca
+inherit:136gmrb:zaporozhye,136gmrb,zaporozhye,47.4,35.7,82.5,parent-inheritance,0.52,0.26999999999999996,2026-05-01,inherited from parent 58gca
+inherit:1mrb_51:donetsk,1mrb_51,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:1mrb_51:donetsk central,1mrb_51,donetsk central,48.05,37.85,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:5mrb_51:donetsk,5mrb_51,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:5mrb_51:donetsk central,5mrb_51,donetsk central,48.05,37.85,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:9mrb_51:donetsk,9mrb_51,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:9mrb_51:donetsk central,9mrb_51,donetsk central,48.05,37.85,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:110mrb_51:donetsk,110mrb_51,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:110mrb_51:donetsk central,110mrb_51,donetsk central,48.05,37.85,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:114mrb_51:donetsk,114mrb_51,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:114mrb_51:donetsk central,114mrb_51,donetsk central,48.05,37.85,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:132mrb_51:donetsk,132mrb_51,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:132mrb_51:donetsk central,132mrb_51,donetsk central,48.05,37.85,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 51ca
+inherit:103rr:donetsk,103rr,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 8gca
+inherit:68mrr_42:donetsk,68mrr_42,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 8gca
+inherit:90b_3reg:kupyansk,90b_3reg,kupyansk,49.71,37.62,52.5,parent-inheritance,0.52,0.39,2026-05-01,inherited from parent 2gca
+inherit:90b_6reg:kupyansk,90b_6reg,kupyansk,49.71,37.62,52.5,parent-inheritance,0.52,0.39,2026-05-01,inherited from parent 2gca
+inherit:37mrb:vuhledar,37mrb,vuhledar,47.78,37.26,52.5,parent-inheritance,0.52,0.39,2026-05-01,inherited from parent 36ca
+inherit:37mrb:zaporozhye,37mrb,zaporozhye,47.4,35.7,82.5,parent-inheritance,0.52,0.26999999999999996,2026-05-01,inherited from parent 36ca
+inherit:5tb:vuhledar,5tb,vuhledar,47.78,37.26,52.5,parent-inheritance,0.52,0.39,2026-05-01,inherited from parent 36ca
+inherit:5tb:zaporozhye,5tb,zaporozhye,47.4,35.7,82.5,parent-inheritance,0.52,0.26999999999999996,2026-05-01,inherited from parent 36ca
+inherit:143mrr:donetsk,143mrr,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 5gca
+inherit:143mrr:south donetsk,143mrr,south donetsk,47.7,37.2,75.0,parent-inheritance,0.52,0.3,2026-05-01,inherited from parent 5gca
+inherit:218tr:donetsk,218tr,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 5gca
+inherit:218tr:south donetsk,218tr,south donetsk,47.7,37.2,75.0,parent-inheritance,0.52,0.3,2026-05-01,inherited from parent 5gca
+inherit:83aab:donetsk,83aab,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 5gca
+inherit:83aab:south donetsk,83aab,south donetsk,47.7,37.2,75.0,parent-inheritance,0.52,0.3,2026-05-01,inherited from parent 5gca
+inherit:36mrb_35:donetsk,36mrb_35,donetsk,48.02,37.8,60.0,parent-inheritance,0.52,0.36,2026-05-01,inherited from parent 35ca
+inherit:36mrb_35:south donetsk,36mrb_35,south donetsk,47.7,37.2,75.0,parent-inheritance,0.52,0.3,2026-05-01,inherited from parent 35ca

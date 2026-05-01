@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-01T00:00:00+00:00",
+  "h3_resolution": 5,
+  "ao_bbox": {
+    "south": 44.0,
+    "north": 53.0,
+    "west": 22.0,
+    "east": 42.5
+  },
+  "recency_half_life_days": 60.0,
+  "random_seed": 20260501,
+  "counts": {
+    "entities": 71,
+    "observations": 133,
+    "entity_hex_beliefs": 55849,
+    "hex_aggregate_belief": 4347,
+    "ao_hexes_total": 6118
+  },
+  "safety": {
+    "h3_resolution_rationale": "res 5 (~252 km^2 / cell) \u2014 broad-AO scale, not targeting-grade",
+    "min_sigma_km": 35.0,
+    "no_external_geocoding": true,
+    "no_targeting": true
+  },
+  "source_repo_files": [
+    "shared/schema.ts",
+    "server/seed.ts",
+    "sqlite.db (military_districts, armies, divisions, brigades, unit_equipment)",
+    "client/src/pages/TacticalMap.tsx (UNIT_POSITIONS dict)",
+    "client/src/data/intel-feed.ts (reliability tier reference)"
+  ]
+}
