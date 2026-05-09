@@ -1,0 +1,1058 @@
+{
+  "source": "Inquisitor curated OOB",
+  "country": "DPRK",
+  "snapshot_date": "2026-05-09",
+  "schema_version": "v1",
+  "tables": {
+    "top_tier": [
+      {
+        "id": "kpa_gs",
+        "name": "KPA General Staff Department (Chongch'am Mobu)",
+        "commander": "Vice Marshal Ri Yong-gil (Chief of General Staff, appointed 10 Aug 2023)",
+        "hq": "Pyongyang",
+        "notes": "Principal administrative and operational command of the entire KPA. Coordinates all service branches. The Chief of General Staff is the highest uniformed military position below Supreme Commander Kim Jong Un. RGB commander also serves as KPA Vice-Chief of General Staff. Post-2025 restructuring expanded the first vice-chief role to two positions. [Wikipedia GSD KPA; Yonhap/ROK MND 2025 annual assessment Jan 2026]",
+        "color": "#1a1a6e"
+      },
+      {
+        "id": "kpa_gf",
+        "name": "KPA Ground Forces (Ryukgun)",
+        "commander": null,
+        "hq": "Pyongyang",
+        "notes": "Largest branch ~1,000,000 active-duty personnel. Organized into 10 regular corps, 2 mechanized corps (806th, 815th), 1 armored corps (820th), 1 artillery corps (620th), Pyongyang Defense Command, Capital Defense Command. >70% of force deployed south of Pyongyang-Wonsan line. Includes ~27 infantry divisions, ~15 armored brigades, 4 mech divisions, ~21 arty brigades per IISS MB 2017. [DIA NKMP 2021; IISS Military Balance 2017 p.304]",
+        "color": "#4a7c1a"
+      },
+      {
+        "id": "kpn",
+        "name": "Korean People's Navy (Haegun)",
+        "commander": "Park Kwang Seop (Commander, from May 2025)",
+        "hq": "Pyongyang (administrative); operational HQ split East/West fleets",
+        "notes": "~60,000-146,000 personnel (estimates vary widely). Primarily coastal/brown-water navy. ~70 submarines total (Romeo-class ~20, Sang-O ~40, Yugo/Yono midgets ~30+). ~430 combat ships. Two destroyers Choe Hyon-class commissioned Apr-Jun 2025 [POST-2021 UPDATE: Wikipedia Choe Hyon 2025]. New nuclear-powered SSBN announced Mar 2025. SLBM-capable submarine 8.24 Yongung (Sinpo-class) + Hero Kim Kun Ok (multi-tube, commissioned Sep 2023). [DIA NKMP 2021; Wikipedia KPN; CSIS Beyond Parallel 2024]",
+        "color": "#1a4a7c"
+      },
+      {
+        "id": "kpaf",
+        "name": "Korean People's Army Air Force (Konggun)",
+        "commander": null,
+        "hq": "Pyongyang",
+        "notes": "~110,000 personnel. ~570 combat aircraft, ~200 helicopters (2024 est.). Renamed from 'Air and Anti-Air Force' in April 2022. Operates 6 divisions: 1st ACC (NW, HQ Kaechon), 2nd ACC (E coast, HQ Toksan), 3rd ACC (DMZ, HQ Hwangju), 5th Transport Div (HQ Taechon), 6th Transport Div (HQ Sondok), 8th Training Div (HQ Orang). Russian MiG-29/Su-27 transfer reported 2024 per INDOPACOM CDR Paparo — not yet confirmed delivered [POST-2021 UPDATE: INDOPACOM 2024]. [DIA NKMP 2021; Wikipedia KPAF 2024]",
+        "color": "#1a6e6e"
+      },
+      {
+        "id": "sof",
+        "name": "KPA Special Operations Forces (Teuksu Jjakjeon'gun)",
+        "commander": null,
+        "hq": "Pyongyang",
+        "notes": "~200,000 personnel — world's largest SOF force by headcount. Organized under General Staff RGB/Light Infantry Training Guidance Bureau (former VII Special Purpose Corps). Operationally distinct from RGB's intelligence mission. Includes 22 light infantry brigades (~5,200 ea), sniper/recon brigades, 3 airborne brigades, 2 amphibious brigades, plus the 11th Storm Corps (~80,000, successor to VIII/XI SOF Corps based at Tokchon). Some elements deployed to Russia 2024 per KPASOF Wikipedia [POST-2021 UPDATE: KPASOF Wikipedia; Grey Dynamics Oct 2024]. [DIA NKMP 2021; FAS KPA Guide Part 3]",
+        "color": "#6e1a1a"
+      },
+      {
+        "id": "strategic",
+        "name": "KPA Strategic Force / Missile General Bureau (Jeonnyakgun)",
+        "commander": null,
+        "hq": "Pyongyang",
+        "notes": "Service-level branch established 2012, directly subordinate to General Staff Department. Operates all ballistic missile units (SRBM through ICBM). Grew from 8 to 13 missile brigades 2018-2020. Post-2021 additions: Hwasong-17 ICBM (tested Mar 2022), Hwasong-18 solid-fuel ICBM (Apr 2023), Hwasong-19 (Oct 2024), Hwasong-16B IRBM (Apr 2024). >200 road-mobile launchers. KN-25 super-large MLRS treated as missile system. [POST-2021 UPDATE: Wikipedia Strategic Force 2024; DIA NKMP 2021 Appendix A]",
+        "color": "#6e4a1a"
+      },
+      {
+        "id": "rgb",
+        "name": "Reconnaissance General Bureau (Jeonggal Chongguk, KPA Unit 586)",
+        "commander": "Col Gen Ri Chang-ho (Director, from 2022)",
+        "hq": "Pyongyang",
+        "notes": "Established Feb 2009 by merging KPA Reconnaissance Bureau, KWP Operations Dept, KWP Office 35. Reports directly to SAC/Kim Jong Un; RGB Commander also serves as KPA Vice-Chief of General Staff. Dual role: (1) HUMINT/SOF infiltration planning (1st/2nd Bureaus); (2) Cyber warfare — 5th Bureau controls 121st Bureau (Lazarus/APT38, ~6,000 hackers), Bluenoroff (~1,700), Andariel (~1,600). Total 6 bureaus. Sanctioned by US Treasury. [HRNK RGB Final 2026; Wikipedia Bureau 121]",
+        "color": "#4a1a6e"
+      }
+    ],
+    "second_tier": [
+      {
+        "id": "corps_1",
+        "name": "I Corps (1st Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Kumgang County, Kangwon Province",
+        "type": "corps",
+        "strength_pct": 85.0,
+        "notes": "FORWARD CORPS. Eastern DMZ sector. One of four frontline corps facing South Korea. High readiness; believed to include 3-4 infantry divisions + mech/arty/AAA brigades. Exact division designations not confirmed in open sources. [Wikipedia I Corps NK; DIA NKMP 2021; IISS MB 2017]"
+      },
+      {
+        "id": "corps_2",
+        "name": "II Corps (2nd Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Wonsan, Kangwon Province (approximate)",
+        "type": "corps",
+        "strength_pct": 82.0,
+        "notes": "FORWARD CORPS. Central DMZ sector. One of four frontline corps. Historically had 5 divisions per Bodansky 1984-88. Current sub-unit names unknown in open sources. [Wikipedia KPAGF; DIA NKMP 2021; FAS irp.fas.org]"
+      },
+      {
+        "id": "corps_4",
+        "name": "IV Corps (4th Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Sariwon area or Pyongyang region (approximate; sources conflict)",
+        "type": "corps",
+        "strength_pct": 83.0,
+        "notes": "FORWARD CORPS. Western DMZ sector facing Seoul axis. One of four highest-readiness ground corps. Specific sub-unit names unconfirmed. [Wikipedia KPAGF; DIA NKMP 2021]"
+      },
+      {
+        "id": "corps_5",
+        "name": "V Corps (5th Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Hamhung area or central sector (approximate)",
+        "type": "corps",
+        "strength_pct": 80.0,
+        "notes": "FORWARD CORPS. Central/eastern DMZ sector. One of four forward corps. Sub-unit composition unconfirmed in open sources. [Wikipedia KPAGF; DIA NKMP 2021; FAS irp.fas.org]"
+      },
+      {
+        "id": "corps_3",
+        "name": "III Corps (3rd Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Sariwon or Wonsan region (approximate)",
+        "type": "corps",
+        "strength_pct": 70.0,
+        "notes": "Second-echelon conventional corps. Coastal/rear-area sector. Sub-unit composition unknown. [Wikipedia KPAGF; DIA NKMP 2021]"
+      },
+      {
+        "id": "corps_6_note",
+        "name": "Former VI Corps (disbanded ~1996) — units absorbed by IX Corps",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "N/A — disbanded",
+        "type": "corps",
+        "strength_pct": 0.0,
+        "notes": "VI Corps HQ was Chongjin, North Hamgyong Province. Disbanded ~1996 after corruption/bribery scandal involving corps staff and local officials per Bermudez 'Shield of the Great Leader'. Units (incl. 24th and 42nd Divisions) reallocated to IX Corps. [Wikipedia KPAGF citing Bermudez; DIA NKMP 2021 context] [POSSIBLY DISBANDED; confirm with current ROK DWP]"
+      },
+      {
+        "id": "corps_7",
+        "name": "VII Corps (7th Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Hamhung or east-coast sector (approximate)",
+        "type": "corps",
+        "strength_pct": 68.0,
+        "notes": "Second-echelon corps. Coastal sector responsibility. Sub-unit names unconfirmed. [Wikipedia KPAGF; DIA NKMP 2021]"
+      },
+      {
+        "id": "corps_8",
+        "name": "VIII Corps (8th Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Approximate: north-central DPRK",
+        "type": "corps",
+        "strength_pct": 65.0,
+        "notes": "Conventional infantry corps; exact location and sub-unit composition not confirmed in open-source reporting. [DIA NKMP 2021 references 10 regular corps; FAS irp.fas.org]"
+      },
+      {
+        "id": "corps_9",
+        "name": "IX Corps (9th Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "North Hamgyong Province (approximate)",
+        "type": "corps",
+        "strength_pct": 65.0,
+        "notes": "Absorbed 24th and 42nd Divisions from defunct VI Corps. Sub-unit details limited. [Wikipedia KPAGF; DIA NKMP 2021]"
+      },
+      {
+        "id": "corps_10",
+        "name": "X Corps (10th Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Unknown; northern DPRK (approximate)",
+        "type": "corps",
+        "strength_pct": 62.0,
+        "notes": "10th of the conventional corps. Sub-unit names and HQ not confirmed in open sources. FAS 1996 document lists 8 conventional corps; number has since expanded. [DIA NKMP 2021 '10 regular corps'; FAS]"
+      },
+      {
+        "id": "corps_806",
+        "name": "806th Mechanized Corps",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Approximate: north of Pyongyang, along western axis LOC",
+        "type": "mech_corps",
+        "strength_pct": 75.0,
+        "notes": "One of two mechanized exploitation corps. In 2003 reporting, the 806th and 815th Mechanised Corps formed the second operational echelon behind the Forward Corps. Equipped with Chonma-ho/Pokpung-ho variants. Sub-brigades unconfirmed. [Wikipedia KPAGF 2003 report; DIA NKMP 2021; IISS MB 2017]"
+      },
+      {
+        "id": "corps_815",
+        "name": "815th Mechanized Corps",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Approximate: eastern axis LOC, north of DMZ forward corps",
+        "type": "mech_corps",
+        "strength_pct": 73.0,
+        "notes": "Second mechanized exploitation corps. 2003 reporting places it as part of second operational echelon. Some 2003 reports indicate a third mechanized corps in strategic reserve. Sub-brigades unconfirmed. [Wikipedia KPAGF; DIA NKMP 2021; IISS MB 2017]"
+      },
+      {
+        "id": "corps_820",
+        "name": "820th Armored Corps",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Sariwon, Hwanghae Province",
+        "type": "armor_corps",
+        "strength_pct": 70.0,
+        "notes": "Armored exploitation corps. Mission: high-speed breakthrough to ROK rear. Contains 105th Armored Division + estimated armored/mech brigades. Main equipment: Chonma-ho (T-62 derivative). Only 'partially equipped' with Pokpung-ho per Mizokami 2020. ROK/US presume multiple armored and mechanized infantry brigades in addition to 105th Division. [Wikipedia KPAGF citing Mizokami/ROK-US assessment; DIA NKMP 2021]"
+      },
+      {
+        "id": "corps_620",
+        "name": "620th Artillery Corps (Forward Artillery Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Approximate: Kaesong region / forward area north of DMZ",
+        "type": "arty_corps",
+        "strength_pct": 88.0,
+        "notes": "HIGHEST READINESS GROUND FORMATION. Operates the famed 170mm Koksan SP guns (range ~60km) and 240mm MRLs (range ~60km) that target Seoul. All systems in range of the Seoul metropolitan area population ~25M. DIA notes some reports that the 620th has been reorganised as '518th Artillery Division' — name/number transition unverified. [Wikipedia KPAGF; DIA NKMP 2021; IISS MB 2017; irp.fas.org]"
+      },
+      {
+        "id": "pdc",
+        "name": "Pyongyang Defense Command",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Pyongyang",
+        "type": "corps",
+        "strength_pct": 90.0,
+        "notes": "REGIME PROTECTION FORCE. Distinct from the Capital Defense Command/91st Corps. Purpose: protect Kim family and Party leadership from internal coup or urban unrest. Corps-sized element; some estimates 300,000 personnel in combined Bodyguard Command and Pyongyang Defense structure. Top leadership replaced Jan 2026 per ROK MND annual assessment [POST-2021 UPDATE: Yonhap Jan 2026]. [DIA NKMP 2021; ROK MND 2025 assessment]"
+      },
+      {
+        "id": "cdc",
+        "name": "Capital Defense Command (91st Corps)",
+        "parent_id": "kpa_gf",
+        "service": "KPA Ground Forces",
+        "hq": "Pyongyang outskirts",
+        "type": "corps",
+        "strength_pct": 85.0,
+        "notes": "ELITE. Protects Pyongyang from external attack (distinct from Pyongyang Defense Command which is regime protection). Designated as 91st Capital Defense Corps in some ROK sources. Sub-brigade composition not confirmed in unclassified open sources. [ROK DWP 2022; factsanddetails.com citing ROK MoD]"
+      },
+      {
+        "id": "kpn_east_fleet",
+        "name": "East Sea Fleet (East Coast Fleet)",
+        "parent_id": "kpn",
+        "service": "KPN",
+        "hq": "Toejo-dong (T'oejo-dong), with major bases at Wonsan/Munchon, Najin, Rason, Mayangdo, Ch'aho",
+        "type": "fleet",
+        "strength_pct": 70.0,
+        "notes": "~470 ships and small craft. 8 operational squadron commands (per DIA NKMP). 10 squadrons per DPRK NIS 1999. Houses submarine flotillas (Romeo-class, Sang-O SSC, midgets), surface forces, landing craft, SOF infiltration assets. Sinpo/Mayang sub development base on east coast. East fleet submarines used for SLBM testing. [Wikipedia KPN; DIA NKMP 2021]"
+      },
+      {
+        "id": "kpn_west_fleet",
+        "name": "West Sea Fleet (West Coast Fleet)",
+        "parent_id": "kpn",
+        "service": "KPN",
+        "hq": "Nampo (Namp'o), with major bases at Pip'a-got, Sagon-ni, Haeju",
+        "type": "fleet",
+        "strength_pct": 68.0,
+        "notes": "~300 watercraft. 5 operational squadron commands (per DIA NKMP). 6 squadrons per DPRK NIS 1999. Houses surface combatants, patrol craft, guided-missile patrol boats, hovercraft, landing craft. Two new 4000-5000 ton Choe Hyon-class destroyers: lead ship Choe Hyon launched Nampo 27 Apr 2025, second ship launched 12 Jun 2025 [POST-2021 UPDATE: Wikipedia Choe Hyon; Sputnik News May 2026]. [DIA NKMP 2021; Wikipedia KPN]"
+      },
+      {
+        "id": "kpaf_1acc",
+        "name": "1st Air Combat Command (1st ACC) / 1st Air Combat Division",
+        "parent_id": "kpaf",
+        "service": "KPAF",
+        "hq": "Kaechon, South Pyongan Province",
+        "type": "air_division",
+        "strength_pct": 55.0,
+        "notes": "Northwestern sector. HQ Kaechon Airfield (2,500m runway). Units include 35th Fighter Rgt (J-6/MiG-19 at Kaechon), 49th Fighter Rgt (MiG-17F at Panghyon), 24th Bomber Rgt (H-5/Il-28 at Uiju), 55th Attack Rgt (Su-25 at Sunchon), 57th Fighter Rgt (MiG-29 at Sunchon), 58th Fighter Rgt (MiG-23ML at Pukchang), 60th Fighter Rgt (MiG-21Bis at Pukchang), 36th Fighter Rgt (J-6 at Onchon). [Wikipedia KPAF; DIA NKMP 2021]"
+      },
+      {
+        "id": "kpaf_2acc",
+        "name": "2nd Air Combat Command (2nd ACC) / 2nd Air Combat Division",
+        "parent_id": "kpaf",
+        "service": "KPAF",
+        "hq": "Toksan, East Coast",
+        "type": "air_division",
+        "strength_pct": 50.0,
+        "notes": "East coast sector. Units include 56th Fighter Rgt (MiG-21PF/J-7/F-7 at Toksan), 25th Bomber Rgt (Il-28/H-5 at Changjin-Up), 46th Fighter Rgt (MiG-21PFM/F-5 at Wonsan), 66th Helicopter Rgt (Mi-14PL at Wonsan), 71st Fighter Rgt (MiG-21PFM at Kuum-ni), 72nd Fighter Rgt (MiG-21PFM at Hwangsuwon). [Wikipedia KPAF]"
+      },
+      {
+        "id": "kpaf_3acc",
+        "name": "3rd Air Combat Command (3rd ACC) / 3rd Air Combat Division",
+        "parent_id": "kpaf",
+        "service": "KPAF",
+        "hq": "Hwangju, North Hwanghae Province",
+        "type": "air_division",
+        "strength_pct": 52.0,
+        "notes": "DMZ sector air defense and combat. HQ at Chunghwa (Air Defense & Combat Command). Units include 4th Fighter-Bomber Rgt (MiG-17F/MiG-21 at Taetan), 32nd Fighter-Bomber Rgt (J-5/MiG-17 at Nuchon-ni), 33rd + 11th Fighter-Bomber Rgts (J-5/MiG-17F at Kwail), 50th Fighter Rgt (MiG-21PFM at Hwangju), 86th Attack Rgt (Q-5A at Koksan), 63rd Attack Helicopter Rgt (Mi-24D at Ayang-ni). [Wikipedia KPAF]"
+      },
+      {
+        "id": "kpaf_5td",
+        "name": "5th Transport Division",
+        "parent_id": "kpaf",
+        "service": "KPAF",
+        "hq": "Taechon, North Pyongan Province",
+        "type": "air_division",
+        "strength_pct": 55.0,
+        "notes": "Primary SOF infiltration lift and transport. HQ Taechon. Units include An-2 transport wings at Taechon, Kwaksan; helicopter wings (Mi-8T/Mi-26) at Pukchang East (65th Helo Rgt); MD-500 helicopters (64th Rgt at Pukchang East — 84 aircraft, illegally obtained 1980s via West German sanctions busting). An-2 Colt is primary SOF insertion platform (invisible to radar, cloth/wood construction). [DIA NKMP 2021; Wikipedia KPAF; FAS KPA Guide Part 3]"
+      },
+      {
+        "id": "kpaf_6td",
+        "name": "6th Transport Division",
+        "parent_id": "kpaf",
+        "service": "KPAF",
+        "hq": "Sondok, South Hamgyong Province",
+        "type": "air_division",
+        "strength_pct": 52.0,
+        "notes": "East-coast transport and helicopter support. An-2 transport units at Sondok, Yonpo, Manpo, Kuktong; Mi-4/Mi-8/Mi-17 helicopter wings at Kowon and Pakhon. [Wikipedia KPAF]"
+      },
+      {
+        "id": "kpaf_8training",
+        "name": "8th Training Division",
+        "parent_id": "kpaf",
+        "service": "KPAF",
+        "hq": "Orang, North Hamgyong Province",
+        "type": "air_division",
+        "strength_pct": 60.0,
+        "notes": "Air force training formation. HQ Orang. Sub-units: 41st Rgt (MiG-15UTI/J-2 at Orang), training regiment at Samiyon (F-5A), Kilchu helicopter training (Mi-2), Kimchaek Air Force Academy (Sungam-Chongjin, BT-6), Kyongsong Flight Officers School (BT-6). [Wikipedia KPAF]"
+      },
+      {
+        "id": "strat_srbm_bde_group",
+        "name": "Strategic Force SRBM Brigade Group (Hwasong-5/6/9/KN-23/24/25)",
+        "parent_id": "strategic",
+        "service": "KPA Strategic Force",
+        "hq": "Multiple operating bases; first belt 50-90km north of DMZ",
+        "type": "missile_bureau",
+        "strength_pct": 90.0,
+        "notes": "First belt of SRBM units. Estimated 500-600 Scud (Hwasong-5/6/9) missiles, ~40 TELs. New systems KN-23 (Iskander-class, 17+ launchers), KN-24 (ATACMS-class, 9+ launchers), KN-25 600mm SRMRL (30 tracked + 9 truck chassis = 216 rockets). Between 2018-2020 Strategic Force expanded from 8 to 13 brigades total. Brigade names/numbers not confirmed in open sources except operational base locations. [Wikipedia Strategic Force; CSIS Beyond Parallel Kal-gol 2020; DIA NKMP 2021 Appendix A]"
+      },
+      {
+        "id": "strat_mrbm_bde_group",
+        "name": "Strategic Force MRBM/IRBM Brigade Group (Hwasong-7/12/Pukguksong-2)",
+        "parent_id": "strategic",
+        "service": "KPA Strategic Force",
+        "hq": "Second belt 90-120km north of DMZ; Panghyon, Sino-ri, Sangnam-ri, Riman-ri",
+        "type": "missile_bureau",
+        "strength_pct": 88.0,
+        "notes": "Second belt MRBM units. 200-300 Hwasong-7 (Nodong) missiles, 30 TELs; targeting US forces in Japan. Pukguksong-2 solid MRBM (7+ deployed, northern bases). Hwasong-9 (Scud-ER MRBM, 1000km). Sino-ri base houses regiment-sized Nodong unit. Individual brigade numbers not confirmed. [Wikipedia Strategic Force; DIA NKMP 2021]"
+      },
+      {
+        "id": "strat_icbm_bde_group",
+        "name": "Strategic Force ICBM Brigade Group (Hwasong-14/15/17/18/19)",
+        "parent_id": "strategic",
+        "service": "KPA Strategic Force",
+        "hq": "Third belt / deep interior; Yusang-ni, Hoejung-ni, Riman-ri (largest base), Yongnim",
+        "type": "missile_bureau",
+        "strength_pct": 88.0,
+        "notes": "ICBM force. Hwasong-14 (10,000+km tested Jul 2017), Hwasong-15 (13,000km, Nov 2017), Hwasong-17 mod 1 (>13,000km, 11+ systems, tested Mar 2022), Hwasong-18 solid-fuel ICBM (Apr 2023, first solid ICBM), Hwasong-19 (Oct 2024, at least 15,000km) [POST-2021 UPDATE: Wikipedia Strategic Force 2024]. Brigade/unit designations not in open sources; DIA NKMP 2021 notes 200+ road-mobile launchers total force-wide. [DIA NKMP 2021; Wikipedia Strategic Force]"
+      },
+      {
+        "id": "strat_slbm",
+        "name": "Strategic Force SLBM Unit (Pukguksong-series)",
+        "parent_id": "strategic",
+        "service": "KPA Strategic Force",
+        "hq": "Sinpo, South Hamgyong Province (Sinpo South Shipyard / Mayang sub base)",
+        "type": "missile_bureau",
+        "strength_pct": 70.0,
+        "notes": "SLBM capability. 8.24 Yongung (Sinpo-class SSB, 1 x Pukguksong tube) + Hero Kim Kun Ok (multi-tube SSB, commissioned Sep 2023). Nuclear-powered SSBN announced Mar 2025 — construction stage only [POST-2021 UPDATE: Wikipedia KPN 2025]. Pukguksong-1/3/4/5 variants in inventory; -1 tested 2016, -3 tested Oct 2019, -4/-5 paraded 2021. Operational readiness of multi-tube SSBN unconfirmed. [Wikipedia KPN; DIA NKMP 2021]"
+      },
+      {
+        "id": "sof_11corps",
+        "name": "11th Storm Corps (XI Corps)",
+        "parent_id": "sof",
+        "service": "KPA SOF",
+        "hq": "Tokchon, South Pyongan Province",
+        "type": "sof_corps",
+        "strength_pct": 88.0,
+        "notes": "ELITE. Successor to VIII Special Operations Corps; ~80,000 personnel. Commands strategic-level SOF brigades for 'second front' creation in ROK rear area. In 2016 western intelligence identified 25 brigades under the 11th Storm Corps. Includes light infantry, airborne, sniper, reconnaissance, and naval sniper brigades. [Wikipedia XI Corps NK; Grey Dynamics Oct 2024; FAS KPA Guide Part 3]"
+      },
+      {
+        "id": "rgb_5thbureau",
+        "name": "RGB 5th Bureau (Technical Reconnaissance / Cyber)",
+        "parent_id": "rgb",
+        "service": "RGB",
+        "hq": "Pyongyang; operators in China (Shenyang/Chilbosan Hotel, Macau, Beijing)",
+        "type": "sof_corps",
+        "strength_pct": 95.0,
+        "notes": "Controls 121st Bureau (Lazarus/APT38/Hidden Cobra, ~6,000 hackers), Bluenoroff (~1,700), Andariel (~1,600). 110th Research Institute (hacking sub-stations 31st-56th). Electronic Warfare Jamming Regiment (Pyongyang, 3 battalions). Total ~5,900-12,000 cyber operatives (various estimates). $1.7B crypto theft 2022; WannaCry 2017; Sony Pictures 2014. [HRNK RGB Final 2026; Wikipedia Bureau 121]"
+      }
+    ],
+    "third_tier": [
+      {
+        "id": "div_105_armor",
+        "name": "105th Seoul Tank Division",
+        "parent_id": "corps_820",
+        "parent_type": "second_tier",
+        "type": "tank",
+        "hq": "Sariwon area (with 820th Armored Corps)",
+        "strength_pct": 68.0,
+        "is_elite": true,
+        "notes": "Named after 1950 Korean War seizure of Seoul. Primary tank division of 820th Armored Corps. Equipment: Pokpung-ho (Type 88 domestic T-72 derivative), Chonma-ho (T-62 derivative). Only partially equipped with Pokpung-ho per 2020 analysis. [Wikipedia KPAGF citing Mizokami 2020; IISS MB 2017]"
+      },
+      {
+        "id": "div_24_inf",
+        "name": "24th Infantry Division",
+        "parent_id": "corps_9",
+        "parent_type": "second_tier",
+        "type": "motor_rifle",
+        "hq": "North Hamgyong Province (approximate)",
+        "strength_pct": 65.0,
+        "is_elite": false,
+        "notes": "Confirmed in Wikipedia KPAGF as assigned to IX Corps after VI Corps dissolution ~1996. [Wikipedia KPAGF]"
+      },
+      {
+        "id": "div_42_inf",
+        "name": "42nd Infantry Division",
+        "parent_id": "corps_9",
+        "parent_type": "second_tier",
+        "type": "motor_rifle",
+        "hq": "North Hamgyong Province (approximate)",
+        "strength_pct": 65.0,
+        "is_elite": false,
+        "notes": "Confirmed in Wikipedia KPAGF as assigned to IX Corps after VI Corps dissolution ~1996. [Wikipedia KPAGF]"
+      },
+      {
+        "id": "div_inf_1c_1",
+        "name": "Infantry Division (unidentified, I Corps) — Placeholder 1",
+        "parent_id": "corps_1",
+        "parent_type": "second_tier",
+        "type": "motor_rifle",
+        "hq": "Kumgang County area (approximate)",
+        "strength_pct": 82.0,
+        "is_elite": false,
+        "notes": "NAME UNKNOWN. DIA NKMP 2021 confirms 27 infantry divisions in KPA GF; exact assignment to I Corps not publicly confirmed. Placeholder per brigade-counting methodology. [DIA NKMP 2021; IISS MB 2017 p.304]"
+      },
+      {
+        "id": "div_inf_1c_2",
+        "name": "Infantry Division (unidentified, I Corps) — Placeholder 2",
+        "parent_id": "corps_1",
+        "parent_type": "second_tier",
+        "type": "motor_rifle",
+        "hq": "Kumgang County area (approximate)",
+        "strength_pct": 80.0,
+        "is_elite": false,
+        "notes": "NAME UNKNOWN. Placeholder. Standard forward corps composition includes 3-4 infantry divisions + mech bde + arty bde + AAA bde. [DIA NKMP 2021; IISS MB 2017]"
+      },
+      {
+        "id": "div_inf_1c_3",
+        "name": "Infantry Division (unidentified, I Corps) — Placeholder 3",
+        "parent_id": "corps_1",
+        "parent_type": "second_tier",
+        "type": "motor_rifle",
+        "hq": "Kumgang County area (approximate)",
+        "strength_pct": 78.0,
+        "is_elite": false,
+        "notes": "NAME UNKNOWN. Placeholder. [DIA NKMP 2021; IISS MB 2017]"
+      },
+      {
+        "id": "bde_mech_1c",
+        "name": "Mechanized Brigade (unidentified, I Corps)",
+        "parent_id": "corps_1",
+        "parent_type": "second_tier",
+        "type": "mech_inf",
+        "hq": "Kumgang County area (approximate)",
+        "strength_pct": 80.0,
+        "is_elite": false,
+        "notes": "NAME UNKNOWN. DIA NKMP 2021 and IISS MB 2017 confirm ~15 armored brigades and 4 mech divisions across KPA GF. Forward corps each likely have 1+ mech brigade. [DIA NKMP 2021; IISS MB 2017]"
+      },
+      {
+        "id": "bde_arty_1c",
+        "name": "Artillery Brigade (unidentified, I Corps)",
+        "parent_id": "corps_1",
+        "parent_type": "second_tier",
+        "type": "artillery",
+        "hq": "Kumgang County area (approximate)",
+        "strength_pct": 82.0,
+        "is_elite": false,
+        "notes": "NAME UNKNOWN. KPA has ~21 artillery brigades per IISS MB 2017. Forward corps have organic arty brigades. [DIA NKMP 2021; IISS MB 2017]"
+      },
+      {
+        "id": "div_inf_4c_1",
+        "name": "Infantry Division (unidentified, IV Corps) — Placeholder 1",
+        "parent_id": "corps_4",
+        "parent_type": "second_tier",
+        "type": "motor_rifle",
+        "hq": "Western DMZ sector (approximate)",
+        "strength_pct": 82.0,
+        "is_elite": false,
+        "notes": "NAME UNKNOWN. Placeholder per DIA count of 27 infantry divisions; IV Corps is a Forward Corps on the western Seoul axis. [DIA NKMP 2021; IISS MB 2017]"
+      },
+      {
+        "id": "div_inf_4c_2",
+        "name": "Infantry Division (unidentified, IV Corps) — Placeholder 2",
+        "parent_id": "corps_4",
+        "parent_type": "second_tier",
+        "type": "motor_rifle",
+        "hq": "Western DMZ sector (approximate)",
+        "strength_pct": 80.0,
+        "is_elite": false,
+        "notes": "NAME UNKNOWN. Placeholder. [DIA NKMP 2021]"
+      },
+      {
+        "id": "bde_arty_620_koksan",
+        "name": "170mm Koksan SP Artillery Brigade (620th Corps element)",
+        "parent_id": "corps_620",
+        "parent_type": "second_tier",
+        "type": "artillery",
+        "hq": "Forward position north of DMZ",
+        "strength_pct": 90.0,
+        "is_elite": true,
+        "notes": "ELITE / HIGHEST READINESS. Operates 170mm M-1978 / M-1989 Koksan self-propelled guns. Range ~60km; covers northern Seoul metro area. ~500 Koksan guns in inventory (est). Specific brigade number unconfirmed. [DIA NKMP 2021; factsanddetails.com; IISS]"
+      },
+      {
+        "id": "bde_arty_620_240mrl",
+        "name": "240mm MLRS Brigade (620th Corps element)",
+        "parent_id": "corps_620",
+        "parent_type": "second_tier",
+        "type": "mlrs",
+        "hq": "Forward position north of DMZ",
+        "strength_pct": 90.0,
+        "is_elite": true,
+        "notes": "ELITE / HIGHEST READINESS. Operates M-1985/M-1991 240mm MRL (range ~60km). Together with Koksan guns, the 620th Corps represents the primary conventional threat to Seoul. ~500+ MRL tubes (est). Specific brigade number unconfirmed. [DIA NKMP 2021; IISS; ROK DWP 2022]"
+      },
+      {
+        "id": "pdc_bde_1",
+        "name": "Bodyguard Command Brigade (Pyongyang Defense Command element)",
+        "parent_id": "pdc",
+        "parent_type": "second_tier",
+        "type": "light_cab",
+        "hq": "Pyongyang",
+        "strength_pct": 95.0,
+        "is_elite": true,
+        "notes": "ELITE / REGIME PROTECTION. Multiple brigade-sized elements under Bodyguard Command per DIA NKMP 2021. Leadership replaced Jan 2026 (Song Jun-sol: Guard Office; Ro Kyong-chol: Guard Dept; Ra Chol-jin: KPA Bodyguard Command) [POST-2021 UPDATE: ROK MND/Yonhap Jan 2026]. Specific brigade designations classified. [DIA NKMP 2021 '300,000 personnel'; ROK MND 2025]"
+      },
+      {
+        "id": "kpn_romeo_flotilla",
+        "name": "Romeo-class Submarine Flotilla",
+        "parent_id": "kpn_east_fleet",
+        "parent_type": "second_tier",
+        "type": "submarine_flotilla",
+        "hq": "Mayangdo sub base / Ch'aho sub base (east coast)",
+        "strength_pct": 55.0,
+        "is_elite": false,
+        "notes": "~20-24 Romeo-class diesel-electric submarines (Chinese/domestic built, Soviet-origin design). Can carry 14 torpedoes or 28 mines. Split between east/west coasts; east coast has primary sub bases at Mayangdo and Ch'aho. Readiness varies — aging fleet; some hulls in poor condition. [DIA NKMP 2021; Wikipedia KPN; KPASOF Wikipedia]"
+      },
+      {
+        "id": "kpn_sango_flotilla",
+        "name": "Sang-O-class Submarine Flotilla (Coastal SSC)",
+        "parent_id": "kpn_east_fleet",
+        "parent_type": "second_tier",
+        "type": "submarine_flotilla",
+        "hq": "Multiple bases east and west coast",
+        "strength_pct": 60.0,
+        "is_elite": false,
+        "notes": "~40 Sang-O class coastal submarines. Specially configured for SOF infiltration (Naval Sniper Brigades ferried by Sang-O per task specification). 1996 Gangneung infiltration incident used Sang-O. [KPASOF Wikipedia; DIA NKMP 2021 'Sango-class submarines']"
+      },
+      {
+        "id": "kpn_midget_flotilla",
+        "name": "Midget Submarine Flotilla (Yugo/Yono-class)",
+        "parent_id": "kpn_east_fleet",
+        "parent_type": "second_tier",
+        "type": "submarine_flotilla",
+        "hq": "Southern bases on each coast (for infiltration ops)",
+        "strength_pct": 55.0,
+        "is_elite": false,
+        "notes": "~45-70 midget submarines (Yugo/Yono class and variants). Can insert 2-5 man teams. US Army 1998 estimate: 45+ midget subs. NIS 1999: 100 submarines total. Cheonan (ROKS, 2010) sinking attributed to Yono-class torpedo. [KPASOF Wikipedia; Wikipedia KPN NIS 1999; DIA NKMP 2021]"
+      },
+      {
+        "id": "kpn_8_24_yongung",
+        "name": "SSB 8.24 Yongung (Sinpo-class SLBM submarine)",
+        "parent_id": "kpn_east_fleet",
+        "parent_type": "second_tier",
+        "type": "submarine_flotilla",
+        "hq": "Sinpo South Shipyard / Sinpo-Mayang base, South Hamgyong Province",
+        "strength_pct": 70.0,
+        "is_elite": true,
+        "notes": "ELITE. First DPRK ballistic missile submarine. Single Pukguksong-1 (KN-11) tube. Launched SLBMs in 2016, 2019 (Pukguksong-3), 2021 (Hwasong-11S), 2023 (2 SLCMs). Length ~67m. [Wikipedia KPN; DIA NKMP 2021]"
+      },
+      {
+        "id": "kpn_hero_kim_kun_ok",
+        "name": "SSB Hero Kim Kun Ok (multi-tube SLBM submarine)",
+        "parent_id": "kpn_east_fleet",
+        "parent_type": "second_tier",
+        "type": "submarine_flotilla",
+        "hq": "Sinpo, South Hamgyong Province",
+        "strength_pct": 75.0,
+        "is_elite": true,
+        "notes": "POST-2021 ADDITION. Commissioned 6 Sep 2023. Multi-tube SLBM carrier; larger than 8.24 Yongung. Largest NK submarine built to date (~67m+ with wider beam). Specific tube count not officially confirmed. [Wikipedia KPN Sep 2023; CSIS Beyond Parallel 2023] [POST-2021 UPDATE]"
+      },
+      {
+        "id": "kpn_choe_hyon_destroyer",
+        "name": "DDG Choe Hyon + Sister Ship (Choe Hyon-class destroyers)",
+        "parent_id": "kpn_west_fleet",
+        "parent_type": "second_tier",
+        "type": "surface_flotilla",
+        "hq": "Nampo (west coast)",
+        "strength_pct": 80.0,
+        "is_elite": true,
+        "notes": "POST-2021 ADDITION. First DPRK destroyer class. Lead ship Choe Hyon launched 27 Apr 2025; second ship launched 12 Jun 2025. Estimated 4,000-5,000 tons, 140-144m. VLS cells (resembling 3M22 Zircon), fixed phased-array radar (resembling Karakurt-class). Can carry nuclear-armed cruise missiles and tactical ballistic missiles per Kim Jong Un. NK plans 12 destroyers of class by 2032. Large nuclear-powered submarine also announced Mar 2025 (construction stage). [Wikipedia Choe Hyon; CSIS Apr 2025; Sputnik News May 2026] [POST-2021 UPDATE]"
+      },
+      {
+        "id": "kpn_surface_flotilla_w",
+        "name": "West Sea Surface Combatant Flotilla (Patrol/Missile Boats)",
+        "parent_id": "kpn_west_fleet",
+        "parent_type": "second_tier",
+        "type": "surface_flotilla",
+        "hq": "Nampo, Haeju, Pip'a-got, Sagon-ni",
+        "strength_pct": 60.0,
+        "is_elite": false,
+        "notes": "Osa-class missile boats (12 + 10 Soju domestic variants + 19 FAC), Chaho fire-support craft (62+), torpedo boats (~200 total fleet wide), Nampo landing craft (~100), Kongbang hovercraft (~125). [DIA NKMP 2021; Wikipedia KPN]"
+      },
+      {
+        "id": "kpn_naval_sniper_24",
+        "name": "24th Seaborne Sniper Brigade (Naval SOF)",
+        "parent_id": "kpn",
+        "parent_type": "top_tier",
+        "type": "naval_infantry",
+        "hq": "East coast base (approximate)",
+        "strength_pct": 85.0,
+        "is_elite": true,
+        "notes": "ELITE. One of 2 maritime sniper brigades in the KPN (per NamuWiki/RGB report). Ferried by Sang-O class submarines for coastal infiltration. Under RGB 2nd Bureau operational planning. [HRNK RGB Final 2026 citing 24th Seaborne Sniper Brigade; NamuWiki KPN]"
+      },
+      {
+        "id": "kpn_naval_sniper_29",
+        "name": "29th Seaborne Sniper Brigade (Naval SOF)",
+        "parent_id": "kpn",
+        "parent_type": "top_tier",
+        "type": "naval_infantry",
+        "hq": "West coast base (approximate)",
+        "strength_pct": 83.0,
+        "is_elite": true,
+        "notes": "ELITE. Second maritime sniper brigade. RGB 2nd Bureau sub-element for seaborne infiltration. [HRNK RGB Final 2026 citing 29th Seaborne Sniper Brigade]"
+      },
+      {
+        "id": "kpaf_rgt_57_mig29",
+        "name": "57th Air Fighter Wing (MiG-29 regiment)",
+        "parent_id": "kpaf_1acc",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Sunchon Airport, South Pyongan Province",
+        "strength_pct": 72.0,
+        "is_elite": true,
+        "notes": "ELITE. Primary air superiority regiment; operates MiG-29B/SE (35 aircraft total KPAF). Highest annual flight hours in KPAF relative to other units. Receives more fuel/maintenance priority. [Wikipedia KPAF; DIA NKMP 2021 'most modern assets are MiG-29 and MiG-23']"
+      },
+      {
+        "id": "kpaf_rgt_55_su25",
+        "name": "55th Air Fighter Wing (Su-25K ground attack regiment)",
+        "parent_id": "kpaf_1acc",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Sunchon Airport, South Pyongan Province",
+        "strength_pct": 65.0,
+        "is_elite": false,
+        "notes": "Operates Su-25K/Su-25UBK (34 total) for close air support. Considered capable by DIA alongside MiG-29 and MiG-23. [Wikipedia KPAF; DIA NKMP 2021]"
+      },
+      {
+        "id": "kpaf_rgt_24_il28",
+        "name": "24th Bomber Regiment (Il-28 / H-5 bombers)",
+        "parent_id": "kpaf_1acc",
+        "parent_type": "second_tier",
+        "type": "bomber_division",
+        "hq": "Uiju Airfield, North Pyongan Province",
+        "strength_pct": 45.0,
+        "is_elite": false,
+        "notes": "Operates Il-28 Beagle/H-5 bombers (~80 total KPAF). Obsolete platform but can deliver Kh-35/P-15 Termit missiles and potentially unguided bombs at night. Some configured for Kumsong-3 anti-ship cruise missile launches. [Wikipedia KPAF; DIA NKMP 2021]"
+      },
+      {
+        "id": "kpaf_rgt_64_md500",
+        "name": "64th Helicopter Regiment (MD-500D)",
+        "parent_id": "kpaf_5td",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Pukchang East airbase, South Pyongan Province",
+        "strength_pct": 60.0,
+        "is_elite": true,
+        "notes": "ELITE SOF SUPPORT. 84 MD-500D helicopters illegally obtained via West German merchants through Soviet vessels in 1980s circumventing US export controls. Some equipped with Soviet AT-3 Sagger ATGMs. Used for SOF airmobile infiltration (range 600km per 4 troops). [Wikipedia KPAF; FAS KPA Guide Part 3]"
+      },
+      {
+        "id": "sof_bde_li_1",
+        "name": "Light Infantry Brigade No. 1 (unidentified, 11th Storm Corps)",
+        "parent_id": "sof_11corps",
+        "parent_type": "second_tier",
+        "type": "light_cab",
+        "hq": "Location unknown (approximate: near DMZ)",
+        "strength_pct": 85.0,
+        "is_elite": true,
+        "notes": "ELITE. Represents one of ~22 light infantry brigades; 8 assigned to Forward Corps, 14 to former VII SPC/11th Storm Corps per FAS. Each ~5,200 personnel. Mission: infiltrate 35-70km from FEBA, attack C3I/nuclear/airfield targets. Numbers 1-22 used as placeholders; actual designations not in open sources. [FAS KPA Guide Part 3; DIA NKMP 2021; Grey Dynamics Oct 2024]"
+      },
+      {
+        "id": "sof_bde_li_2",
+        "name": "Light Infantry Brigade No. 2 (unidentified, 11th Storm Corps)",
+        "parent_id": "sof_11corps",
+        "parent_type": "second_tier",
+        "type": "light_cab",
+        "hq": "Location unknown",
+        "strength_pct": 85.0,
+        "is_elite": true,
+        "notes": "NAME/NUMBER UNKNOWN. Placeholder. [FAS KPA Guide Part 3; DIA NKMP 2021]"
+      },
+      {
+        "id": "sof_bde_airborne_3",
+        "name": "3rd SOF Airborne Brigade (unidentified designation)",
+        "parent_id": "sof_11corps",
+        "parent_type": "second_tier",
+        "type": "airborne",
+        "hq": "Location unknown",
+        "strength_pct": 88.0,
+        "is_elite": true,
+        "notes": "ELITE. One of ~3 airborne brigades per Grey Dynamics 2024 and FAS. Conducted paratroop training observed by Kim Jong Un Mar 2024 (41st Amphibious Assault Bn marched Jul 2023 parade). SOF insertion via An-2 Colt / Mi-8. [Grey Dynamics Oct 2024; FAS KPA Guide Part 3; KPASOF Wikipedia]"
+      },
+      {
+        "id": "sof_bde_airborne_17",
+        "name": "17th SOF Airborne Brigade (unidentified designation)",
+        "parent_id": "sof_11corps",
+        "parent_type": "second_tier",
+        "type": "airborne",
+        "hq": "Location unknown",
+        "strength_pct": 86.0,
+        "is_elite": true,
+        "notes": "ELITE. Second of ~3 airborne brigades. Task specification identifies '3rd, 17th SOF Air Bdes' as named designations — these numbers are from task instruction and have not been independently verified in open-source documents consulted. Treat with caution. [Task specification note; Grey Dynamics Oct 2024]"
+      },
+      {
+        "id": "sof_bde_sniper_1",
+        "name": "Sniper/Reconnaissance Brigade No. 1 (General Sniper Brigade)",
+        "parent_id": "sof_11corps",
+        "parent_type": "second_tier",
+        "type": "mountain",
+        "hq": "Location unknown",
+        "strength_pct": 88.0,
+        "is_elite": true,
+        "notes": "ELITE. One of ~3 General Sniper Brigades per Grey Dynamics 2024. FAS notes these are 'elite of the nKPA SOF'; chain of command runs to Ministry of People's Armed Forces in peacetime, transfers to VII SPC/11th Corps in wartime. One brigade is reportedly all-female ('Peony Brigade'). [FAS KPA Guide Part 3; Grey Dynamics Oct 2024]"
+      },
+      {
+        "id": "sof_bde_recon_1",
+        "name": "Reconnaissance Brigade No. 1 (strategic reconnaissance)",
+        "parent_id": "sof_11corps",
+        "parent_type": "second_tier",
+        "type": "mountain",
+        "hq": "Location unknown",
+        "strength_pct": 87.0,
+        "is_elite": true,
+        "notes": "ELITE. One of ~3 Reconnaissance Brigades per Grey Dynamics 2024. Operates behind enemy lines; opens paths for regular units; HVT targeting. RGB 2nd Bureau has 7 dedicated reconnaissance battalions in addition. [Grey Dynamics Oct 2024; HRNK RGB Final 2026; FAS KPA Guide Part 3]"
+      },
+      {
+        "id": "sof_bde_amphibious_1",
+        "name": "Amphibious Light Infantry Brigade No. 1",
+        "parent_id": "sof_11corps",
+        "parent_type": "second_tier",
+        "type": "amphibious",
+        "hq": "Coastal location (east coast approximate)",
+        "strength_pct": 83.0,
+        "is_elite": true,
+        "notes": "ELITE. FAS confirms 2 amphibious light infantry brigades for two-front coastal operations. Mission: seaborne infiltration of ROK rear areas. Uses high-speed boats (30+ knots), air-cushioned hovercraft (7,000+ SOF per coastline per US Army 1998 estimate). [FAS KPA Guide Part 3; KPASOF Wikipedia]"
+      },
+      {
+        "id": "strat_srbm_bde_kn23",
+        "name": "KN-23 (Hwasong-11A) SRBM Brigade",
+        "parent_id": "strat_srbm_bde_group",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "First belt, approximate north of DMZ",
+        "strength_pct": 92.0,
+        "is_elite": true,
+        "notes": "ELITE. Operates KN-23 Iskander-class SRBM (240-800km, quasi-ballistic trajectory, 17+ launchers). First tested 2019; evades THAAD/Patriot gap. Likely 1 launch battalion per brigade. [Wikipedia Strategic Force; DIA NKMP 2021; CSIS Beyond Parallel 2020]"
+      },
+      {
+        "id": "strat_srbm_bde_kn24",
+        "name": "KN-24 (Hwasong-11B) SRBM Brigade",
+        "parent_id": "strat_srbm_bde_group",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "First belt, approximate north of DMZ",
+        "strength_pct": 90.0,
+        "is_elite": true,
+        "notes": "ELITE. Operates KN-24 ATACMS-class SRBM (410km, 9+ launchers). Tested Aug 2019, Mar 2020. [Wikipedia Strategic Force; DIA NKMP 2021]"
+      },
+      {
+        "id": "strat_srbm_bde_kn25",
+        "name": "KN-25 600mm Super-Large MLRS Brigade",
+        "parent_id": "strat_srbm_bde_group",
+        "parent_type": "second_tier",
+        "type": "mlrs",
+        "hq": "First belt, approximate",
+        "strength_pct": 90.0,
+        "is_elite": true,
+        "notes": "ELITE. 600mm 'super-large multiple rocket launcher'; US assessment treats as SRBM-class (380km range). 30 tracked + 9 truck chassis = 216 guided rockets produced. North Korea exported shells/rockets to Russia 2023-24 for Ukraine War use [POST-2021 UPDATE: Wikipedia Strategic Force; Arms Control Association 2024]. [Wikipedia Strategic Force; DIA NKMP 2021]"
+      },
+      {
+        "id": "strat_mrbm_bde_nodong",
+        "name": "Hwasong-7 (Nodong/Rodong) MRBM Brigade",
+        "parent_id": "strat_mrbm_bde_group",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Sino-ri (regiment-sized unit confirmed at Sino-ri, 39°38'42\"N 125°21'19\"E); Panghyon area",
+        "strength_pct": 88.0,
+        "is_elite": true,
+        "notes": "ELITE. 200-300 Hwasong-7 missiles, 30 TELs. Targeting US forces in Japan (1,200-1,500km range). Sino-ri confirmed unit per Wikipedia Strategic Force. Brigade numbers not in unclassified open sources. [Wikipedia Strategic Force; DIA NKMP 2021]"
+      },
+      {
+        "id": "strat_mrbm_bde_pk2",
+        "name": "Pukguksong-2 (KN-15) Solid MRBM Brigade",
+        "parent_id": "strat_mrbm_bde_group",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Northern border bases (replacing Hwasong-7 positions per Wikipedia)",
+        "strength_pct": 88.0,
+        "is_elite": true,
+        "notes": "ELITE. 7+ launchers deployed. Solid-fueled (1,200-3,000km range). Deployed to northern border in missile bases alongside Hwasong-7. [Wikipedia Strategic Force]"
+      },
+      {
+        "id": "strat_icbm_bde_hs17",
+        "name": "Hwasong-17 ICBM Brigade",
+        "parent_id": "strat_icbm_bde_group",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Deep interior; Riman-ri or Yusang-ni area",
+        "strength_pct": 88.0,
+        "is_elite": true,
+        "notes": "ELITE. POST-2021 ADDITION. Hwasong-17 (>13,000km; 11+ systems). First tested Mar 2022. Largest liquid-fueled ICBM in NK arsenal. [Wikipedia Strategic Force 2024] [POST-2021 UPDATE]"
+      },
+      {
+        "id": "strat_icbm_bde_hs18",
+        "name": "Hwasong-18 Solid-Fuel ICBM Brigade",
+        "parent_id": "strat_icbm_bde_group",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Deep interior (location classified)",
+        "strength_pct": 85.0,
+        "is_elite": true,
+        "notes": "ELITE. POST-2021 ADDITION. Hwasong-18 (15,000km; first solid-fuel ICBM in NK arsenal; tested Apr 2023). Significantly improved survivability vs. liquid-fueled systems. [Wikipedia Strategic Force 2024] [POST-2021 UPDATE]"
+      },
+      {
+        "id": "strat_icbm_bde_hs19",
+        "name": "Hwasong-19 ICBM Brigade",
+        "parent_id": "strat_icbm_bde_group",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Deep interior (location classified)",
+        "strength_pct": 82.0,
+        "is_elite": true,
+        "notes": "ELITE. POST-2021 ADDITION. Hwasong-19 (at least 15,000km; tested Oct 2024). Newest ICBM in NK arsenal. Operational brigade status unclear — may be in limited initial deployment. [Wikipedia Strategic Force 2024] [POST-2021 UPDATE]"
+      },
+      {
+        "id": "rgb_lazarus",
+        "name": "121st Bureau / Lazarus Group (APT38)",
+        "parent_id": "rgb_5thbureau",
+        "parent_type": "second_tier",
+        "type": "mountain",
+        "hq": "Pyongyang; operators at Chilbosan Hotel Shenyang China and other overseas locations",
+        "strength_pct": 98.0,
+        "is_elite": true,
+        "notes": "ELITE CYBER. ~6,000 personnel (grew from ~1,000 in 2010). Lead RGB cyber unit. Sub-groups: Lazarus/APT38 (social chaos/malware; Sony 2014, WannaCry 2017, $1.7B crypto 2022, Axie Infinity $620M), Bluenoroff (~1,700; financial theft), Andariel (~1,600; military/industrial espionage). Director 5th Bureau: Cho Il-u (EU sanctioned 2017). [HRNK RGB Final 2026; Wikipedia Bureau 121]"
+      }
+    ],
+    "fourth_tier": [],
+    "unit_equipment": [
+      {
+        "id": 1,
+        "unit_id": "kpa_gf",
+        "unit_type": "top_tier",
+        "equipment_type": "tank",
+        "equipment_model": "Chonma-ho (T-62 derivative, multiple variants), Pokpung-ho (T-72/T-90 domestic derivative, M-2018 hexagonal turret), T-55, T-62 (legacy)",
+        "authorized_count": 3500,
+        "estimated_lost": 0
+      },
+      {
+        "id": 2,
+        "unit_id": "kpa_gf",
+        "unit_type": "top_tier",
+        "equipment_type": "ifv",
+        "equipment_model": "M-1992 IFV (domestic BMP-2 copy), BMP-1, BTR-60/80, Type 63 APC",
+        "authorized_count": 2500,
+        "estimated_lost": 0
+      },
+      {
+        "id": 3,
+        "unit_id": "kpa_gf",
+        "unit_type": "top_tier",
+        "equipment_type": "artillery_sp",
+        "equipment_model": "M-1978 / M-1989 Koksan 170mm SP, M-1977 130mm SP, M-1991 152mm SP",
+        "authorized_count": 500,
+        "estimated_lost": 0
+      },
+      {
+        "id": 4,
+        "unit_id": "kpa_gf",
+        "unit_type": "top_tier",
+        "equipment_type": "artillery_towed",
+        "equipment_model": "M-1985 152mm, D-74 122mm, D-1 152mm, B-10 82mm recoilless, various",
+        "authorized_count": 8100,
+        "estimated_lost": 0
+      },
+      {
+        "id": 5,
+        "unit_id": "kpa_gf",
+        "unit_type": "top_tier",
+        "equipment_type": "mlrs",
+        "equipment_model": "M-1985 / M-1991 240mm MRL, BM-21 122mm (copy), M-1977 107mm, 300mm MLRS",
+        "authorized_count": 4800,
+        "estimated_lost": 0
+      },
+      {
+        "id": 6,
+        "unit_id": "kpa_gf",
+        "unit_type": "top_tier",
+        "equipment_type": "sam",
+        "equipment_model": "KN-06 (S-300 derivative), S-75 Dvina, S-125, 9K33 Osa, 9K35 Strela-10, ZPU-4, Pongae-5",
+        "authorized_count": 900,
+        "estimated_lost": 0
+      },
+      {
+        "id": 7,
+        "unit_id": "kpn",
+        "unit_type": "top_tier",
+        "equipment_type": "submarine",
+        "equipment_model": "Romeo-class diesel-electric (~20), Sang-O coastal SSC (~40), Yugo/Yono midgets (~30+), Sinpo-class SSB (2)",
+        "authorized_count": 70,
+        "estimated_lost": 0
+      },
+      {
+        "id": 8,
+        "unit_id": "kpn",
+        "unit_type": "top_tier",
+        "equipment_type": "destroyer",
+        "equipment_model": "Choe Hyon-class (2 commissioned 2025)",
+        "authorized_count": 2,
+        "estimated_lost": 0
+      },
+      {
+        "id": 9,
+        "unit_id": "kpn",
+        "unit_type": "top_tier",
+        "equipment_type": "frigate",
+        "equipment_model": "Najin-class (2, modernized with Kh-35 on one), new 4000t frigates under construction (2024-25)",
+        "authorized_count": 2,
+        "estimated_lost": 0
+      },
+      {
+        "id": 10,
+        "unit_id": "kpn",
+        "unit_type": "top_tier",
+        "equipment_type": "corvette",
+        "equipment_model": "Nampo-class (100+), Osa/Soju FAC-M (43), Chaho fire-support craft (62+)",
+        "authorized_count": 430,
+        "estimated_lost": 0
+      },
+      {
+        "id": 11,
+        "unit_id": "kpn",
+        "unit_type": "top_tier",
+        "equipment_type": "lst",
+        "equipment_model": "Hantae medium landing ships (8), Kongbang hovercraft (~125-140), Nampo personnel landing craft (~100)",
+        "authorized_count": 250,
+        "estimated_lost": 0
+      },
+      {
+        "id": 12,
+        "unit_id": "kpaf",
+        "unit_type": "top_tier",
+        "equipment_type": "fighter",
+        "equipment_model": "MiG-29B/SE (35), MiG-23ML/MF (56), Su-25K/UBK (34), J-6/MiG-19 (97), J-7/F-7 (30), MiG-21 (26), Shenyang F-5/MiG-17 (106), Su-7 (18)",
+        "authorized_count": 570,
+        "estimated_lost": 0
+      },
+      {
+        "id": 13,
+        "unit_id": "kpaf",
+        "unit_type": "top_tier",
+        "equipment_type": "bomber",
+        "equipment_model": "Il-28 Beagle / Harbin H-5 (80)",
+        "authorized_count": 80,
+        "estimated_lost": 0
+      },
+      {
+        "id": 14,
+        "unit_id": "kpaf",
+        "unit_type": "top_tier",
+        "equipment_type": "transport",
+        "equipment_model": "An-2 Colt (270+, primary SOF infiltration), Mi-8/Mi-17 (41), Mi-2 (48), Mi-26 (4), Z-5/Harbin (48)",
+        "authorized_count": 300,
+        "estimated_lost": 0
+      },
+      {
+        "id": 15,
+        "unit_id": "kpaf",
+        "unit_type": "top_tier",
+        "equipment_type": "helicopter",
+        "equipment_model": "Mi-24D/Mi-35 (20), MD-500D (84), Mi-8/Mi-17 (41), Mi-2 (48), Mi-14PL (8)",
+        "authorized_count": 200,
+        "estimated_lost": 0
+      },
+      {
+        "id": 16,
+        "unit_id": "kpaf",
+        "unit_type": "top_tier",
+        "equipment_type": "uav",
+        "equipment_model": "Saetbyol-4 (RQ-4 copy), Saetbyol-9 (MQ-9 copy), Pchela-1T (10), Tu-143, various commercial UAVs, Panghyon-1/2 (RGB drones)",
+        "authorized_count": 300,
+        "estimated_lost": 0
+      },
+      {
+        "id": 17,
+        "unit_id": "strategic",
+        "unit_type": "top_tier",
+        "equipment_type": "srbm",
+        "equipment_model": "Hwasong-5 (Scud-B, 340km), Hwasong-6 (Scud-C, 500km), Hwasong-9 (Scud-ER, 1000km), KN-23/Hwasong-11A (800km), KN-24/Hwasong-11B (410km), KN-25/Hwasong-11D (380km SRMRL)",
+        "authorized_count": 200,
+        "estimated_lost": 0
+      },
+      {
+        "id": 18,
+        "unit_id": "strategic",
+        "unit_type": "top_tier",
+        "equipment_type": "mrbm",
+        "equipment_model": "Hwasong-7/Nodong (900-1500km, 10+), Pukguksong-2 (1200-3000km, 7+)",
+        "authorized_count": 50,
+        "estimated_lost": 0
+      },
+      {
+        "id": 19,
+        "unit_id": "strategic",
+        "unit_type": "top_tier",
+        "equipment_type": "irbm",
+        "equipment_model": "Hwasong-12/12 mod 1 (5000-6000km, 10+), Hwasong-10 Musudan (<50, reliability poor), Hwasong-16B (3000-5500km solid, tested 2024)",
+        "authorized_count": 60,
+        "estimated_lost": 0
+      },
+      {
+        "id": 20,
+        "unit_id": "strategic",
+        "unit_type": "top_tier",
+        "equipment_type": "icbm",
+        "equipment_model": "Hwasong-14 (10000+km), Hwasong-15 (13000km), Hwasong-17 (>13000km, 11+ sys), Hwasong-18 solid (15000km), Hwasong-19 (15000+km, Oct 2024)",
+        "authorized_count": 30,
+        "estimated_lost": 0
+      },
+      {
+        "id": 21,
+        "unit_id": "strategic",
+        "unit_type": "top_tier",
+        "equipment_type": "cruise_missile",
+        "equipment_model": "Hwasal-1 (land attack CM), Hwasal-2 (1800-2000km LACM, fired from Amnok-class corvette Aug 2023), KN-05 (air-launched), Kumsong-3 anti-ship (240km)",
+        "authorized_count": 50,
+        "estimated_lost": 0
+      },
+      {
+        "id": 22,
+        "unit_id": "kpn",
+        "unit_type": "top_tier",
+        "equipment_type": "cruise_missile",
+        "equipment_model": "Hwasal-2 LACM, Kumsong-3 coastal defense, Kh-35 anti-ship (on Najin frigate), C-802/YJ-82 anti-ship, P-15 Termit",
+        "authorized_count": 100,
+        "estimated_lost": 0
+      }
+    ]
+  },
+  "sources_consulted": [
+    "DIA North Korea Military Power 2021 (https://www.dia.mil/Portals/110/Documents/News/North_Korea_Military_Power.pdf)",
+    "Wikipedia Korean People's Army Ground Force (https://en.wikipedia.org/wiki/Korean_People%27s_Army_Ground_Force)",
+    "Wikipedia Korean People's Navy (https://en.wikipedia.org/wiki/Korean_People%27s_Navy)",
+    "Wikipedia Korean People's Army Air Force (https://en.wikipedia.org/wiki/Korean_People%27s_Army_Air_Force)",
+    "Wikipedia Korean People's Army Strategic Force (https://en.wikipedia.org/wiki/Korean_People%27s_Army_Strategic_Force)",
+    "Wikipedia Korean People's Army Special Operations Forces (https://en.wikipedia.org/wiki/Korean_People%27s_Army_Special_Operations_Forces)",
+    "Wikipedia General Staff Department KPA (https://en.wikipedia.org/wiki/General_Staff_Department_of_the_Korean_People%27s_Army)",
+    "Wikipedia XI Corps (Storm Corps) North Korea (https://en.wikipedia.org/wiki/XI_Corps_(North_Korea))",
+    "Wikipedia I Corps North Korea (https://en.wikipedia.org/wiki/I_Corps_(North_Korea))",
+    "Wikipedia North Korean destroyer Choe Hyon (https://en.wikipedia.org/wiki/North_Korean_destroyer_Choe_Hyon)",
+    "Wikipedia Bureau 121 (https://en.wikipedia.org/wiki/Bureau_121)",
+    "HRNK Reconnaissance General Bureau Final Report 2026 (https://www.hrnk.org/wp-content/uploads/2026/02/RGB_Final.pdf)",
+    "FAS KPA Guide Part 3 Special Operations Forces (https://nuke.fas.org/guide/dprk/agency/kpa-guide/part03.htm)",
+    "CSIS Beyond Parallel Kal-gol Missile Operating Base 2020 (https://beyondparallel.csis.org/undeclared-north-korea-the-kal-gol-missile-operating-base/)",
+    "Grey Dynamics North Korean Special Forces Oct 2024 (https://greydynamics.com/north-korean-special-forces/)",
+    "IISS Military Balance 2017 DPRK chapter p.304",
+    "ROK Ministry of National Defense 2022 Defense White Paper (https://www.mnd.go.kr)",
+    "Arms Control Association North Korea Russia Military Ties Jul 2024 (https://www.armscontrol.org/act/2024-07/news/north-korea-russia-strengthen-military-ties)",
+    "Sputnik News North Korea Choe Hyon Destroyer May 2026 (https://sputniknews.in/20260508/north-korea-tests-new-choe-hyon-destroyer-10872168.html)",
+    "Yonhap/Korea Times North Korea Military Reshuffle Jan 2026 (https://www.koreatimes.co.kr/foreignaffairs/northkorea/20260113/n-korea-replaces-top-military-officials-guarding-kim-jong-un-unification-ministry)",
+    "FAS IRP Chapter 5 North Korea Military Forces (https://irp.fas.org/dia/product/knfms/knfms_chp5.html)",
+    "NamuWiki Korean People's Army Navy (https://en.namu.wiki/w/korean-peoples-army-navy)",
+    "GlobalMilitary.net KPAF Inventory 2026 (https://www.globalmilitary.net/air_forces/prk/)"
+  ]
+}

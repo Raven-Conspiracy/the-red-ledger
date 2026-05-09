@@ -1,0 +1,1672 @@
+{
+  "source": "Inquisitor curated OOB",
+  "country": "China",
+  "snapshot_date": "2026-05-09",
+  "schema_version": "v1",
+  "tables": {
+    "top_tier": [
+      {
+        "id": "etc",
+        "name": "Eastern Theater Command (东部战区)",
+        "commander": "Gen. Yang Zhibin (promoted December 2025; replaces purged Gen. Lin Xiangyang)",
+        "hq": "Nanjing",
+        "notes": "Responsible for Taiwan Strait, East China Sea; most likely main effort theater for Taiwan contingency. Lin Xiangyang purged November 2025 per CNA. Yang Zhibin confirmed Dec 2025. [DOD CMPR 2024 p.95] [CNA 2025-11-19] [Chinese Govt release 2025-12-22]",
+        "color": "#c0392b"
+      },
+      {
+        "id": "stc",
+        "name": "Southern Theater Command (南部战区)",
+        "commander": "Gen. Wu Yanan (status uncertain — absent from PRC events late 2025; under investigation as of Nov 2025)",
+        "hq": "Guangzhou",
+        "notes": "Responsible for South China Sea, Vietnam border, support to ETC amphibious ops. Commander Wu Yanan and two Southern TC Navy commanders (Li Pengcheng, Ju Xinchun) reportedly under investigation as of late 2025. [POST-PURGE STATUS UNCERTAIN] [DOD CMPR 2024 p.95] [CNA 2025-11-19] [LinkedIn Erickson 2025-12-28]",
+        "color": "#e67e22"
+      },
+      {
+        "id": "wtc",
+        "name": "Western Theater Command (西部战区)",
+        "commander": "Gen. Wang Haijiang (absent from key events late 2025; status uncertain)",
+        "hq": "Chengdu",
+        "notes": "Largest geographic theater; covers Xinjiang, Tibet, borders with India, Russia (partial), Central Asia. Wang Haijiang reportedly among generals absent from key events Nov 2025, suggesting possible investigation. [POST-PURGE STATUS UNCERTAIN] [DOD CMPR 2024 p.95] [CNA 2025-11-19]",
+        "color": "#8e44ad"
+      },
+      {
+        "id": "ntc",
+        "name": "Northern Theater Command (北部战区)",
+        "commander": "Gen. Huang Ming (took office August 2024)",
+        "hq": "Shenyang",
+        "notes": "Responsible for northeastern China, Korean Peninsula, Russian border, Mongolian border. Commands primary ground forces facing Russia/DPRK. Huang Ming confirmed as commander Aug 2024. [DOD CMPR 2024 p.95] [Wikipedia Northern Theater Command]",
+        "color": "#2980b9"
+      },
+      {
+        "id": "ctc",
+        "name": "Central Theater Command (中部战区)",
+        "commander": "Gen. Han Shengyan (promoted December 2025)",
+        "hq": "Beijing",
+        "notes": "Capital region defense; includes Beijing garrison forces, 81st/82nd/83rd Group Armies, strategic reserve function. Han Shengyan confirmed Dec 2025. [DOD CMPR 2024 p.95] [Chinese Govt release 2025-12-22]",
+        "color": "#27ae60"
+      }
+    ],
+    "second_tier": [
+      {
+        "id": "71ga",
+        "name": "71st Group Army (第七十一集团军)",
+        "parent_id": "etc",
+        "service": "PLAA",
+        "hq": "Xuzhou",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 12th Group Army (Nanjing MR); redesignated Apr 2017. Primary armored force for ETC; 4 heavy CABs. [DOD CMPR 2024 p.97] [Wikipedia 71st GA] [US Army SSI 2024]"
+      },
+      {
+        "id": "72ga",
+        "name": "72nd Group Army (第七十二集团军)",
+        "parent_id": "etc",
+        "service": "PLAA",
+        "hq": "Huzhou",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 1st Group Army (Nanjing MR); redesignated Apr 2017. Significant amphibious component. [DOD CMPR 2024 p.97] [Wikipedia PLAGF] [mod.gov.cn 2025]"
+      },
+      {
+        "id": "73ga",
+        "name": "73rd Group Army (第七十三集团军)",
+        "parent_id": "etc",
+        "service": "PLAA",
+        "hq": "Xiamen",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 31st Group Army (Nanjing MR); redesignated Apr 2017. Contains 2 amphibious brigades for Taiwan strait contingency; first-tier amphibious force. [DOD CMPR 2024 p.97] [Wikipedia 73rd GA 2024]"
+      },
+      {
+        "id": "74ga",
+        "name": "74th Group Army (第七十四集团军)",
+        "parent_id": "stc",
+        "service": "PLAA",
+        "hq": "Huizhou",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 42nd Group Army (Guangzhou MR); redesignated Apr 2017. Contains 2 amphibious brigades with ZTD-05/ZBD-05 systems; probable secondary amphibious force supporting ETC Taiwan ops. [DOD CMPR 2024 p.97] [Wikipedia 74th GA]"
+      },
+      {
+        "id": "75ga",
+        "name": "75th Group Army (第七十五集团军)",
+        "parent_id": "stc",
+        "service": "PLAA",
+        "hq": "Kunming",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 41st Group Army (Guangzhou MR); redesignated Apr 2017. Includes mountain combined arms brigade for highland/Vietnam border terrain. [DOD CMPR 2024 p.97] [Wikipedia 75th GA]"
+      },
+      {
+        "id": "76ga",
+        "name": "76th Group Army (第七十六集团军)",
+        "parent_id": "wtc",
+        "service": "PLAA",
+        "hq": "Xining",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 21st Group Army (Lanzhou MR); redesignated Apr 2017. Covers Xinjiang, Qinghai border regions; has elements repositioned toward India LAC per 2024 SSI study. [DOD CMPR 2024 p.97] [US Army SSI 2024]"
+      },
+      {
+        "id": "77ga",
+        "name": "77th Group Army (第七十七集团军)",
+        "parent_id": "wtc",
+        "service": "PLAA",
+        "hq": "Chengdu",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 13th Group Army (Chengdu MR); redesignated Apr 2017. 2 mountain CABs; 3 brigades repositioned to Tibet since 2017 for India LAC operations per SSI 2024. [DOD CMPR 2024 p.97] [US Army SSI 2024]"
+      },
+      {
+        "id": "78ga",
+        "name": "78th Group Army (第七十八集团军)",
+        "parent_id": "ntc",
+        "service": "PLAA",
+        "hq": "Harbin",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 16th Group Army (Shenyang MR); redesignated Apr 2017. Primary heavy armored force in NTC; 4 heavy CABs; retains some legacy tank-heavy formations. [DOD CMPR 2024 p.97] [Wikipedia 78th GA]"
+      },
+      {
+        "id": "79ga",
+        "name": "79th Group Army (第七十九集团军)",
+        "parent_id": "ntc",
+        "service": "PLAA",
+        "hq": "Liaoyang",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 39th Group Army (Shenyang MR); redesignated Apr 2017. Has 4 armored brigades; 79th Special Forces Brigade 'Amur Tigers'. [DOD CMPR 2024 p.97] [Wikipedia 79th GA]"
+      },
+      {
+        "id": "80ga",
+        "name": "80th Group Army (第八十集团军)",
+        "parent_id": "ntc",
+        "service": "PLAA",
+        "hq": "Weifang",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 26th Group Army (Jinan MR); redesignated Apr 2017. 80th Special Operations Brigade 'Taishan Eagles'. [DOD CMPR 2024 p.97] [Wikipedia 80th GA]"
+      },
+      {
+        "id": "81ga",
+        "name": "81st Group Army (第八十一集团军)",
+        "parent_id": "ctc",
+        "service": "PLAA",
+        "hq": "Zhangjiakou",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 27th Group Army (Beijing MR); redesignated Apr 2017. Capital region ground defense; 3 heavy CABs. [DOD CMPR 2024 p.97] [Wikipedia PLAGF]"
+      },
+      {
+        "id": "82ga",
+        "name": "82nd Group Army (第八十二集团军)",
+        "parent_id": "ctc",
+        "service": "PLAA",
+        "hq": "Baoding",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 38th Group Army (Beijing MR); redesignated Apr 2017. 3 heavy CABs; historically one of the PLA's premier armored formations. [DOD CMPR 2024 p.97] [Wikipedia 82nd GA]"
+      },
+      {
+        "id": "83ga",
+        "name": "83rd Group Army (第八十三集团军)",
+        "parent_id": "ctc",
+        "service": "PLAA",
+        "hq": "Xinxiang",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Formerly 54th Group Army (Jinan MR); redesignated Apr 2017. Includes 161st Air Assault CAB, making it a first-tier rapid reaction force. [DOD CMPR 2024 p.97] [Wikipedia 83rd GA]"
+      },
+      {
+        "id": "nsf",
+        "name": "Northern Theater Command Fleet (North Sea Fleet, 北部战区海军)",
+        "parent_id": "ntc",
+        "service": "PLAN",
+        "hq": "Qingdao",
+        "type": "fleet",
+        "strength_pct": 100,
+        "notes": "HQ at Qingdao, Shandong. Patrols Yellow Sea and northern approaches. Home to Liaoning (CV-16 Type 001) carrier and SSBN/SSN nuclear submarine bases at Jianggezhuang. [DOD CMPR 2024 p.45] [Wikipedia PLAN] [NavalNews 2026-01-03]"
+      },
+      {
+        "id": "esf",
+        "name": "Eastern Theater Command Fleet (East Sea Fleet, 东部战区海军)",
+        "parent_id": "etc",
+        "service": "PLAN",
+        "hq": "Ningbo",
+        "type": "fleet",
+        "strength_pct": 100,
+        "notes": "HQ at Ningbo (Zhoushan), Zhejiang. Patrols East China Sea; critical for Taiwan strait operations. Will receive first Type 055 DDGs from second production batch per NavalNews. Operates Sovremenny-class DDGs as most capable surface combatants currently. [DOD CMPR 2024 p.45] [NavalNews 2026-01-03]"
+      },
+      {
+        "id": "ssf_plan",
+        "name": "Southern Theater Command Fleet (South Sea Fleet, 南部战区海军)",
+        "parent_id": "stc",
+        "service": "PLAN",
+        "hq": "Zhanjiang",
+        "type": "fleet",
+        "strength_pct": 100,
+        "notes": "HQ Zhanjiang, Guangdong. Yulin/Sanya bases house SSBNs (Type 094). Home to Shandong (CV-17, commissioned 2019), Fujian (CV-18, commissioned Nov 2025), and 6 marine brigades. Two STCN commanders (Li Pengcheng, Ju Xinchun) reportedly purged/under investigation 2025; replacement status unclear. [POST-PURGE STATUS UNCERTAIN] [DOD CMPR 2024 p.45] [LinkedIn Erickson 2025-12-28] [NavalNews 2026-01-03]"
+      },
+      {
+        "id": "etcaf",
+        "name": "Eastern Theater Command Air Force (东部战区空军)",
+        "parent_id": "etc",
+        "service": "PLAAF",
+        "hq": "Nanjing",
+        "type": "air_force_base",
+        "strength_pct": 100,
+        "notes": "Manages PLAAF units in ETC AOR. Key fighter brigades include J-20 (8th, 9th, 41st Bdes), J-16 (7th, 40th Bdes), Su-30MKK (85th Bde), JH-7A (83rd Bde). Primary air combat power for Taiwan contingency. [Heritage Foundation 2026-01-20] [CASI/PLAAF Overview 2023]"
+      },
+      {
+        "id": "stcaf",
+        "name": "Southern Theater Command Air Force (南部战区空军)",
+        "parent_id": "stc",
+        "service": "PLAAF",
+        "hq": "Guangzhou",
+        "type": "air_force_base",
+        "strength_pct": 100,
+        "notes": "Manages PLAAF units in STC AOR. J-20 at 4th and 5th Bdes; J-16 at 6th and 26th Bdes. Includes 8th Bomber Division (H-6K) at Shaodong/Leiyang. [Heritage Foundation 2026-01-20] [CASI/PLAAF Overview 2023]"
+      },
+      {
+        "id": "wtcaf",
+        "name": "Western Theater Command Air Force (西部战区空军)",
+        "parent_id": "wtc",
+        "service": "PLAAF",
+        "hq": "Chengdu",
+        "type": "air_force_base",
+        "strength_pct": 100,
+        "notes": "Manages PLAAF in WTC AOR. J-20 at 97th Bde (Dazu) and 111th Bde (Korla). Western TC has transport regiment (not brigade) directly subordinate. Bases at Lhasa, Urumqi, Lanzhou, Kunming. [CASI J-20 Status 2024-04-29] [CASI/PLAAF Overview 2023] [_gaps: limited public brigade-level data for WTC]"
+      },
+      {
+        "id": "ntcaf",
+        "name": "Northern Theater Command Air Force (北部战区空军)",
+        "parent_id": "ntc",
+        "service": "PLAAF",
+        "hq": "Shenyang",
+        "type": "air_force_base",
+        "strength_pct": 100,
+        "notes": "Manages PLAAF in NTC AOR. J-20 at 1st Bde (Anshan) and 55th Bde (Jining/Qufu). J-16 at 15th Bde (Weifang). Bases at Dalian, Changchun (command post), Jinan, Shenyang. [Heritage Foundation 2026-01-20] [CASI J-20 Status 2024-04-29]"
+      },
+      {
+        "id": "ctcaf",
+        "name": "Central Theater Command Air Force (中部战区空军)",
+        "parent_id": "ctc",
+        "service": "PLAAF",
+        "hq": "Beijing",
+        "type": "air_force_base",
+        "strength_pct": 100,
+        "notes": "Manages PLAAF in CTC AOR. J-20 at 56th Bde (Zhengzhou). Wuhan base. Transport SAR brigade directly subordinate. [CASI J-20 Status 2024-04-29] [CASI/PLAAF Overview 2023]"
+      },
+      {
+        "id": "plarf_b61",
+        "name": "PLARF Base 61 (第六十一基地, Unit 96601)",
+        "parent_id": "etc",
+        "service": "PLARF",
+        "hq": "Huangshan",
+        "type": "rocket_force_base",
+        "strength_pct": 100,
+        "notes": "HQ Huangshan, Anhui. Covers eastern/southeastern China; proximate to Taiwan Strait. 7-8 subordinate brigades including DF-26, DF-21A, DF-15, DF-17, DF-16, DF-11 systems. Primarily conventional/dual-capable; Taiwan-targeting posture. [POST-PURGE STATUS UNCERTAIN — PLARF leadership purge 2023-2024 may have affected readiness] [CNS PLARF OOB 2023 p.base61] [Wikipedia PLARF]"
+      },
+      {
+        "id": "plarf_b62",
+        "name": "PLARF Base 62 (第六十二基地, Unit 96602)",
+        "parent_id": "stc",
+        "service": "PLARF",
+        "hq": "Kunming",
+        "type": "rocket_force_base",
+        "strength_pct": 100,
+        "notes": "HQ Kunming, Yunnan. Covers southeastern China/South China Sea approaches. 7 brigades: DF-31AG (nuclear), DF-26 (dual), DF-17 (conventional hypersonic), DF-21D (anti-ship), DF-10A (cruise). [POST-PURGE STATUS UNCERTAIN] [CNS PLARF OOB 2023] [Grey Dynamics 2024-07-30]"
+      },
+      {
+        "id": "plarf_b63",
+        "name": "PLARF Base 63 (第六十三基地, Unit 96603)",
+        "parent_id": "stc",
+        "service": "PLARF",
+        "hq": "Huaihua",
+        "type": "rocket_force_base",
+        "strength_pct": 100,
+        "notes": "HQ Huaihua, Hunan. Southern inland coverage. 6 brigades: DF-5B/5C silo-based ICBM (nuclear), DF-31AG (nuclear), DF-17 (conventional), DF-16A (conventional). Silo expansion ongoing per CNS 2023. [POST-PURGE STATUS UNCERTAIN] [CNS PLARF OOB 2023] [Wikipedia PLARF]"
+      },
+      {
+        "id": "plarf_b64",
+        "name": "PLARF Base 64 (第六十四基地, Unit 96604)",
+        "parent_id": "wtc",
+        "service": "PLARF",
+        "hq": "Lanzhou",
+        "type": "rocket_force_base",
+        "strength_pct": 100,
+        "notes": "HQ Lanzhou, Gansu. NW China/Central Asia coverage. 6-7 brigades: DF-41 (nuclear), DF-31AG (nuclear), DF-26 (dual). Large silo fields at Yumen (~110 silos) and Hami (~120 silos) associated with Base 64 AOR. [POST-PURGE STATUS UNCERTAIN] [CNS PLARF OOB 2023] [Wikipedia PLARF]"
+      },
+      {
+        "id": "plarf_b65",
+        "name": "PLARF Base 65 (第六十五基地, Unit 96605)",
+        "parent_id": "ntc",
+        "service": "PLARF",
+        "hq": "Shenyang",
+        "type": "rocket_force_base",
+        "strength_pct": 100,
+        "notes": "HQ Shenyang, Liaoning. Formerly Base 51. NE China/Shandong coverage. 6-7 brigades: DF-41 (nuclear), DF-31AG (nuclear), DF-26 (dual), DF-21D (anti-ship), DF-17 (conventional), CJ-100/DF-100 (LACM). [POST-PURGE STATUS UNCERTAIN] [CNS PLARF OOB 2023] [Grey Dynamics 2024-07-30]"
+      },
+      {
+        "id": "plarf_b66",
+        "name": "PLARF Base 66 (第六十六基地, Unit 96606)",
+        "parent_id": "ctc",
+        "service": "PLARF",
+        "hq": "Luoyang",
+        "type": "rocket_force_base",
+        "strength_pct": 100,
+        "notes": "HQ Luoyang, Henan. Central China; concentrates silo-based ICBMs and some road-mobile. 6 brigades: DF-5B/5C (silo nuclear), DF-31A/AG (mobile nuclear), DF-41 (mobile nuclear), DF-26 (dual). [POST-PURGE STATUS UNCERTAIN] [CNS PLARF OOB 2023] [Grey Dynamics 2024-07-30] [Wikipedia PLARF]"
+      },
+      {
+        "id": "plarf_b67",
+        "name": "PLARF Base 67 (第六十七基地) — Nuclear Weapons Storage",
+        "parent_id": "ctc",
+        "service": "PLARF",
+        "hq": "Baoji",
+        "type": "rocket_force_base",
+        "strength_pct": 100,
+        "notes": "HQ Baoji, Shaanxi. Formerly Base 22. Nuclear warhead storage, maintenance, and distribution; directly subordinate to CMC (not a standard firing base). Underground storage at Taibai County (Qin Mountains). Special security unit (96038). Not a combat missile firing base. [CNS PLARF OOB 2023] [Wikipedia PLARF]"
+      },
+      {
+        "id": "pla_asf",
+        "name": "PLA Aerospace Force (航天部队)",
+        "parent_id": "ctc",
+        "service": "PLASSF",
+        "hq": "Beijing",
+        "type": "air_force_base",
+        "strength_pct": 100,
+        "notes": "Established April 19, 2024 from PLASSF Aerospace Systems Department. Commands PLA space forces (reconnaissance, navigation, communications satellites, ASAT). Deputy Theater Command Leader grade; directly under CMC. [PLASSF was disbanded 2024-04-19] [Air University CASI 2024-04-22]"
+      },
+      {
+        "id": "pla_csf",
+        "name": "PLA Cyberspace Force (网络空间部队)",
+        "parent_id": "ctc",
+        "service": "PLASSF",
+        "hq": "Beijing",
+        "type": "air_force_base",
+        "strength_pct": 100,
+        "notes": "Established April 19, 2024 from PLASSF Network Systems Department. Handles offensive/defensive cyber operations. Deputy Theater Command Leader grade; directly under CMC. [Air University CASI 2024-04-22]"
+      },
+      {
+        "id": "pla_isf",
+        "name": "PLA Information Support Force (信息支援部队)",
+        "parent_id": "ctc",
+        "service": "PLASSF",
+        "hq": "Beijing",
+        "type": "air_force_base",
+        "strength_pct": 100,
+        "notes": "Established April 19, 2024; the primary successor formation to PLASSF. Commander: LtGen Bi Yi; Political Commissar: Gen Li Wei. Responsible for PLA communications networks and network defense (formerly Information Communications Base). Directly commanded by CMC. [Air University CASI 2024-04-22]"
+      },
+      {
+        "id": "planmc",
+        "name": "PLA Marine Corps (陆战队, PLANMC)",
+        "parent_id": "ssf_plan",
+        "service": "PLAN",
+        "hq": "Zhanjiang",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "Expanded from 2 to 6 amphibious combined arms brigades in 2017 reform; added SOF bde, aviation bde = 8 brigades total. ~40,000 personnel. All brigades under South Sea Fleet/Southern TC. First-tier units. [Gunners Shot 2024-01-18] [DOD CMPR 2024]"
+      },
+      {
+        "id": "airborne",
+        "name": "PLA Air Force Airborne Corps (空降兵军)",
+        "parent_id": "ctc",
+        "service": "PLAAF",
+        "hq": "Xiaogan",
+        "type": "group_army",
+        "strength_pct": 100,
+        "notes": "HQ Xiaogan, Hubei. Reports to CMC via PLAAF; wartime placed under theater commands. 5 airborne brigades + 1 air assault brigade; SOF brigade; aviation transport brigade. IISS 2025 confirms current structure. [Wikipedia PLAAF Airborne Corps] [IISS Military Balance 2025]"
+      }
+    ],
+    "third_tier": [
+      {
+        "id": "71ga_2cab",
+        "name": "2nd Heavy Combined Arms Brigade",
+        "parent_id": "71ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Xuzhou area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Type 99A MBTs, ZBD-04A IFVs. First-tier (一类) heavy armored unit. [Wikipedia 71st GA] [DOD CMPR 2024 p.97]"
+      },
+      {
+        "id": "71ga_35cab",
+        "name": "35th Heavy Combined Arms Brigade",
+        "parent_id": "71ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Xuzhou area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Type 99A MBTs, ZBD-04A IFVs. First-tier heavy armored unit. [Wikipedia 71st GA] [DOD CMPR 2024 p.97]"
+      },
+      {
+        "id": "71ga_160cab",
+        "name": "160th Heavy Combined Arms Brigade",
+        "parent_id": "71ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Xuzhou area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Type 99A MBTs. First-tier heavy armored unit. [Wikipedia 71st GA] [DOD CMPR 2024 p.97]"
+      },
+      {
+        "id": "71ga_178cab",
+        "name": "178th Medium Combined Arms Brigade",
+        "parent_id": "71ga",
+        "parent_type": "second_tier",
+        "type": "medium_cab",
+        "hq": "Xuzhou area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "ZBL-08 wheeled IFVs, ZTL-11 assault guns. [Wikipedia 71st GA]"
+      },
+      {
+        "id": "71ga_179cab",
+        "name": "179th Light Combined Arms Brigade",
+        "parent_id": "71ga",
+        "parent_type": "second_tier",
+        "type": "light_cab",
+        "hq": "Xuzhou area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "Light motorized infantry. [Wikipedia 71st GA]"
+      },
+      {
+        "id": "71ga_235cab",
+        "name": "235th Heavy Combined Arms Brigade",
+        "parent_id": "71ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Hefei area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "First-tier heavy armored unit. [Wikipedia 71st GA] [DOD CMPR 2024 p.97]"
+      },
+      {
+        "id": "73ga_1amphibcab",
+        "name": "73rd GA Amphibious Combined Arms Brigade (1st Amphibious)",
+        "parent_id": "73ga",
+        "parent_type": "second_tier",
+        "type": "amphibious",
+        "hq": "Xiamen area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "ZBD-05 amphibious IFV. First-tier amphibious unit; critical to Taiwan contingency. Brigade number not confirmed in public sources. [Wikipedia 73rd GA 2024] [DOD CMPR 2024 p.97]"
+      },
+      {
+        "id": "73ga_2amphibcab",
+        "name": "73rd GA Amphibious Combined Arms Brigade (2nd Amphibious)",
+        "parent_id": "73ga",
+        "parent_type": "second_tier",
+        "type": "amphibious",
+        "hq": "Xiamen area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "ZBD-05 amphibious IFV. First-tier amphibious unit. Brigade number not confirmed in public sources. [Wikipedia 73rd GA 2024] [DOD CMPR 2024 p.97]"
+      },
+      {
+        "id": "74ga_1amphibcab",
+        "name": "1st Amphibious Combined Arms Brigade",
+        "parent_id": "74ga",
+        "parent_type": "second_tier",
+        "type": "amphibious",
+        "hq": "Huizhou area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "ZTD-05 amphibious assault guns, ZBD-05 IFV. First-tier amphibious unit. [Wikipedia 74th GA]"
+      },
+      {
+        "id": "74ga_125amphibcab",
+        "name": "125th Amphibious Combined Arms Brigade",
+        "parent_id": "74ga",
+        "parent_type": "second_tier",
+        "type": "amphibious",
+        "hq": "Huizhou area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "ZTD-05/ZBD-05 systems. First-tier amphibious unit. [Wikipedia 74th GA]"
+      },
+      {
+        "id": "74ga_16cab",
+        "name": "16th Heavy Combined Arms Brigade",
+        "parent_id": "74ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Huizhou area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "ZTZ-96 MBTs, ZBD-86A IFVs. [Wikipedia 74th GA]"
+      },
+      {
+        "id": "74ga_154cab",
+        "name": "154th Medium Combined Arms Brigade",
+        "parent_id": "74ga",
+        "parent_type": "second_tier",
+        "type": "medium_cab",
+        "hq": "Huizhou area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "ZTL-11, ZBL-08 wheeled. [Wikipedia 74th GA]"
+      },
+      {
+        "id": "75ga_32mcab",
+        "name": "32nd Mountain Combined Arms Brigade",
+        "parent_id": "75ga",
+        "parent_type": "second_tier",
+        "type": "mountain_inf_bde",
+        "hq": "Kunming area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "Mountain/highland infantry. STC Vietnam border/highland terrain. [Wikipedia 75th GA]"
+      },
+      {
+        "id": "75ga_31cab",
+        "name": "31st Heavy Combined Arms Brigade",
+        "parent_id": "75ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Kunming area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "Type 96A MBTs, ZBD-04 IFVs. [Wikipedia 75th GA]"
+      },
+      {
+        "id": "75ga_121cab",
+        "name": "121st Air Assault Combined Arms Brigade",
+        "parent_id": "75ga",
+        "parent_type": "second_tier",
+        "type": "air_assault",
+        "hq": "Kunming area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Air assault/helicopter-borne. [Wikipedia 75th GA]"
+      },
+      {
+        "id": "76ga_12cab",
+        "name": "12th Heavy Combined Arms Brigade",
+        "parent_id": "76ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Jiuquan, Gansu",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "Stationed Jiuquan. [Wikipedia 76th GA]"
+      },
+      {
+        "id": "76ga_56cab",
+        "name": "56th Light Combined Arms Brigade",
+        "parent_id": "76ga",
+        "parent_type": "second_tier",
+        "type": "light_cab",
+        "hq": "Xining area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 76th GA]"
+      },
+      {
+        "id": "76ga_62cab",
+        "name": "62nd Heavy Combined Arms Brigade",
+        "parent_id": "76ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Xining area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 76th GA]"
+      },
+      {
+        "id": "76ga_149cab",
+        "name": "149th Heavy Combined Arms Brigade",
+        "parent_id": "76ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Xining area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 76th GA]"
+      },
+      {
+        "id": "77ga_40mcab",
+        "name": "40th Mountain Combined Arms Brigade",
+        "parent_id": "77ga",
+        "parent_type": "second_tier",
+        "type": "mountain_inf_bde",
+        "hq": "Tibet (relocated post-2017)",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "Relocated to Tibet. India LAC forward posture. [US Army SSI 2024]"
+      },
+      {
+        "id": "77ga_39cab",
+        "name": "39th Heavy Combined Arms Brigade",
+        "parent_id": "77ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Chengdu area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 77th GA]"
+      },
+      {
+        "id": "77ga_150mcab",
+        "name": "150th Mountain Combined Arms Brigade",
+        "parent_id": "77ga",
+        "parent_type": "second_tier",
+        "type": "mountain_inf_bde",
+        "hq": "Tibet/Sichuan (partially relocated)",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "Partial relocation to Tibet post-2017. [US Army SSI 2024]"
+      },
+      {
+        "id": "78ga_8cab",
+        "name": "8th Heavy Combined Arms Brigade",
+        "parent_id": "78ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Harbin area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Type 99A MBTs. First-tier heavy armor. [Wikipedia 78th GA]"
+      },
+      {
+        "id": "78ga_68cab",
+        "name": "68th Heavy Combined Arms Brigade",
+        "parent_id": "78ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Harbin area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "First-tier heavy armor. [Wikipedia 78th GA]"
+      },
+      {
+        "id": "78ga_202cab",
+        "name": "202nd Heavy Combined Arms Brigade",
+        "parent_id": "78ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Harbin area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 78th GA]"
+      },
+      {
+        "id": "78ga_204cab",
+        "name": "204th Heavy Combined Arms Brigade",
+        "parent_id": "78ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Harbin area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 78th GA]"
+      },
+      {
+        "id": "78ga_115cab",
+        "name": "115th Medium Combined Arms Brigade",
+        "parent_id": "78ga",
+        "parent_type": "second_tier",
+        "type": "medium_cab",
+        "hq": "Harbin area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 78th GA]"
+      },
+      {
+        "id": "80ga_47cab",
+        "name": "47th Light Combined Arms Brigade",
+        "parent_id": "80ga",
+        "parent_type": "second_tier",
+        "type": "light_cab",
+        "hq": "Weifang area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 80th GA]"
+      },
+      {
+        "id": "80ga_69cab",
+        "name": "69th Heavy Combined Arms Brigade",
+        "parent_id": "80ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Weifang area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 80th GA]"
+      },
+      {
+        "id": "80ga_118cab",
+        "name": "118th Medium Combined Arms Brigade",
+        "parent_id": "80ga",
+        "parent_type": "second_tier",
+        "type": "medium_cab",
+        "hq": "Weifang area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 80th GA]"
+      },
+      {
+        "id": "80ga_199cab",
+        "name": "199th Light Combined Arms Brigade",
+        "parent_id": "80ga",
+        "parent_type": "second_tier",
+        "type": "light_cab",
+        "hq": "Weifang area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 80th GA]"
+      },
+      {
+        "id": "81ga_7cab",
+        "name": "7th Heavy Combined Arms Brigade",
+        "parent_id": "81ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Zhangjiakou area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 81st GA]"
+      },
+      {
+        "id": "81ga_194cab",
+        "name": "194th Heavy Combined Arms Brigade",
+        "parent_id": "81ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Zhangjiakou area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 81st GA]"
+      },
+      {
+        "id": "81ga_195cab",
+        "name": "195th Heavy Combined Arms Brigade",
+        "parent_id": "81ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Zhangjiakou area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 81st GA]"
+      },
+      {
+        "id": "82ga_6cab",
+        "name": "6th Heavy Combined Arms Brigade",
+        "parent_id": "82ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Baoding area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "First-tier heavy armored; historically premier formation of former 38th GA. [Wikipedia 82nd GA]"
+      },
+      {
+        "id": "82ga_112cab",
+        "name": "112th Heavy Combined Arms Brigade",
+        "parent_id": "82ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Baoding area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "First-tier heavy armored. [Wikipedia 82nd GA]"
+      },
+      {
+        "id": "82ga_151cab",
+        "name": "151st Heavy Combined Arms Brigade",
+        "parent_id": "82ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Baoding area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 82nd GA]"
+      },
+      {
+        "id": "83ga_11cab",
+        "name": "11th Heavy Combined Arms Brigade",
+        "parent_id": "83ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Xinxiang area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 83rd GA]"
+      },
+      {
+        "id": "83ga_131cab",
+        "name": "131st Heavy Combined Arms Brigade",
+        "parent_id": "83ga",
+        "parent_type": "second_tier",
+        "type": "heavy_combined_arms_bde",
+        "hq": "Xinxiang area",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "[Wikipedia 83rd GA]"
+      },
+      {
+        "id": "83ga_161aab",
+        "name": "161st Air Assault Combined Arms Brigade",
+        "parent_id": "83ga",
+        "parent_type": "second_tier",
+        "type": "air_assault",
+        "hq": "Xinxiang area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "First-tier air assault unit; rapid reaction force. [Wikipedia 83rd GA]"
+      },
+      {
+        "id": "planmc_1mb",
+        "name": "1st Marine Brigade (海军陆战队第1旅)",
+        "parent_id": "planmc",
+        "parent_type": "second_tier",
+        "type": "marine",
+        "hq": "Zhanjiang",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Founded 1980; original marine brigade. Amphibious combined arms; ZTD-05, ZBD-05, ZTL-11. ~5,000 personnel. First-tier. [Gunners Shot 2024-01-18] [DOD CMPR 2024]"
+      },
+      {
+        "id": "planmc_2mb",
+        "name": "2nd Marine Brigade (海军陆战队第2旅)",
+        "parent_id": "planmc",
+        "parent_type": "second_tier",
+        "type": "marine",
+        "hq": "Zhanjiang",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Formed 1998 from 164th Division. Amphibious combined arms. First-tier. [Gunners Shot 2024-01-18] [DOD CMPR 2024]"
+      },
+      {
+        "id": "planmc_3mb",
+        "name": "3rd Marine Brigade (海军陆战队第3旅)",
+        "parent_id": "planmc",
+        "parent_type": "second_tier",
+        "type": "marine",
+        "hq": "Zhanjiang area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Formed 2017 expansion. Amphibious combined arms. First-tier. [Gunners Shot 2024-01-18]"
+      },
+      {
+        "id": "planmc_4mb",
+        "name": "4th Marine Brigade (海军陆战队第4旅)",
+        "parent_id": "planmc",
+        "parent_type": "second_tier",
+        "type": "marine",
+        "hq": "Zhanjiang area",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Formed 2017 expansion. Amphibious combined arms. First-tier. [Gunners Shot 2024-01-18]"
+      },
+      {
+        "id": "planmc_5mb",
+        "name": "5th Marine Brigade (海军陆战队第5旅)",
+        "parent_id": "planmc",
+        "parent_type": "second_tier",
+        "type": "marine",
+        "hq": "Sanya area (Hainan)",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Formed 2017 expansion; possibly Hainan-based. Amphibious combined arms. First-tier. [Gunners Shot 2024-01-18]"
+      },
+      {
+        "id": "planmc_6mb",
+        "name": "6th Marine Brigade (海军陆战队第6旅)",
+        "parent_id": "planmc",
+        "parent_type": "second_tier",
+        "type": "marine",
+        "hq": "Sanya area (Hainan)",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Formed 2017 expansion. Amphibious combined arms. First-tier. [Gunners Shot 2024-01-18]"
+      },
+      {
+        "id": "nsf_subflot",
+        "name": "North Sea Fleet Submarine Flotilla",
+        "parent_id": "nsf",
+        "parent_type": "second_tier",
+        "type": "submarine_flotilla",
+        "hq": "Jianggezhuang (Qingdao)",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Houses SSBN (Type 094A Jin-class) and SSN (Type 093 Shang-class) at Jianggezhuang nuclear submarine base near Qingdao. Type 094 assigned 72 JL-3 warheads per PLAN nuclear deterrence posture. [DOD CMPR 2024 p.55] [Wikipedia PLAN]"
+      },
+      {
+        "id": "ssf_subflot",
+        "name": "South Sea Fleet Submarine Flotilla",
+        "parent_id": "ssf_plan",
+        "parent_type": "second_tier",
+        "type": "submarine_flotilla",
+        "hq": "Yulin Naval Base, Sanya",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Yulin (Longpo) base at Hainan. Houses Type 094 SSBN and Type 093/093A SSN. Underground submarine facility. Critical for SSBN deterrence patrols into South Pacific. [DOD CMPR 2024 p.55] [Wikipedia PLAN] [USNWC CMSI submarine forces report]"
+      },
+      {
+        "id": "nsf_surfaceflot",
+        "name": "North Sea Fleet Destroyer/Frigate Flotilla",
+        "parent_id": "nsf",
+        "parent_type": "second_tier",
+        "type": "surface_flotilla",
+        "hq": "Qingdao",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "Includes Liaoning (CV-16 Type 001) Carrier Strike Group. Type 055 DDGs (4 hulls assigned NTC per NavalNews 2026). Type 052D, Type 054A frigates. [NavalNews 2026-01-03] [DOD CMPR 2024 p.45]"
+      },
+      {
+        "id": "ssf_surfaceflot",
+        "name": "South Sea Fleet Destroyer/Frigate/Carrier Flotilla",
+        "parent_id": "ssf_plan",
+        "parent_type": "second_tier",
+        "type": "surface_flotilla",
+        "hq": "Zhanjiang/Sanya",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "Houses Shandong (CV-17 Type 002, commissioned 2019) and Fujian (CV-18 Type 003, commissioned Nov 2025). 4 Type 055 DDGs at Sanya/Longpo. Type 071 LPD, Type 075 LHD. [NavalNews 2026-01-03] [DOD CMPR 2024 p.45] [Wikipedia Chinese carrier programme]"
+      },
+      {
+        "id": "esf_surfaceflot",
+        "name": "East Sea Fleet Surface/Amphibious Flotilla",
+        "parent_id": "esf",
+        "parent_type": "second_tier",
+        "type": "surface_flotilla",
+        "hq": "Zhoushan/Ningbo",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "Operates Sovremenny-class DDGs and Type 052D; ETC priority for Taiwan contingency. First batch of second-production Type 055 DDGs earmarked for ESF per NavalNews. [NavalNews 2026-01-03] [DOD CMPR 2024 p.45]"
+      },
+      {
+        "id": "airborne_127bde",
+        "name": "127th Airborne Brigade",
+        "parent_id": "airborne",
+        "parent_type": "second_tier",
+        "type": "airborne",
+        "hq": "Hubei / wartime STC",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Air assault type per 2024 Taiwan publication. Wartime assigned to Southern Theater Command. First-tier airborne unit. [Wikipedia PLAAF Airborne Corps] [IISS 2025]"
+      },
+      {
+        "id": "airborne_128bde",
+        "name": "128th Airborne Brigade",
+        "parent_id": "airborne",
+        "parent_type": "second_tier",
+        "type": "airborne",
+        "hq": "Hubei / wartime WTC",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Air assault type per 2024 Taiwan publication. Wartime WTC. First-tier. [Wikipedia PLAAF Airborne Corps]"
+      },
+      {
+        "id": "airborne_133bde",
+        "name": "133rd Airborne Brigade",
+        "parent_id": "airborne",
+        "parent_type": "second_tier",
+        "type": "airborne",
+        "hq": "Hubei / wartime NTC",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Airborne. Wartime NTC. First-tier. [Wikipedia PLAAF Airborne Corps] [IISS 2025]"
+      },
+      {
+        "id": "airborne_134bde",
+        "name": "134th Airborne Brigade",
+        "parent_id": "airborne",
+        "parent_type": "second_tier",
+        "type": "airborne",
+        "hq": "Hubei / wartime ETC",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Airborne. Wartime ETC (Taiwan contingency). First-tier. [Wikipedia PLAAF Airborne Corps]"
+      },
+      {
+        "id": "etcaf_8bde",
+        "name": "8th Fighter Brigade (J-20A)",
+        "parent_id": "etcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Changxing Air Base, Zhejiang",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "J-20A 5th gen stealth fighter. Adopted J-20 2022. ETC priority air superiority. [Heritage Foundation 2026-01-20] [CASI J-20 Status 2024-04-29]"
+      },
+      {
+        "id": "etcaf_9bde",
+        "name": "9th Fighter Brigade (J-20)",
+        "parent_id": "etcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Wuhu Air Base, Anhui",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "J-20 5th gen stealth fighter. First operational J-20 unit in ETC, adopted 2019. [Heritage Foundation 2026-01-20] [CASI J-20 Status 2024-04-29]"
+      },
+      {
+        "id": "etcaf_41bde",
+        "name": "41st Aviation Brigade (transitioning J-20)",
+        "parent_id": "etcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Wuyishan Air Base, Fujian",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "Transitioning to J-20 as of late 2023. Fujian proximity to Taiwan Strait. [Heritage Foundation 2026-01-20] [CASI J-20 Status 2024-04-29]"
+      },
+      {
+        "id": "etcaf_7bde",
+        "name": "7th Aviation Brigade (J-16)",
+        "parent_id": "etcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Jiaxing Air Base, Zhejiang",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "J-16 multirole strike fighter. [Heritage Foundation 2026-01-20]"
+      },
+      {
+        "id": "etcaf_40bde",
+        "name": "40th Aviation Brigade (J-16)",
+        "parent_id": "etcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Nanchang Xiangtang Air Base, Jiangxi",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "J-16 ~70 aircraft. [Heritage Foundation 2026-01-20]"
+      },
+      {
+        "id": "etcaf_83bde",
+        "name": "83rd Aviation Brigade (JH-7A)",
+        "parent_id": "etcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Hangzhou Jianqiao Air Base, Zhejiang",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "JH-7A fighter-bomber. [Heritage Foundation 2026-01-20]"
+      },
+      {
+        "id": "stcaf_4bde",
+        "name": "4th Air Brigade (J-20A)",
+        "parent_id": "stcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Foshan Shadi Air Base, Guangdong",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "J-20A 5th gen. STC key air superiority asset. [Heritage Foundation 2026-01-20]"
+      },
+      {
+        "id": "stcaf_5bde",
+        "name": "5th Air Brigade (J-20A)",
+        "parent_id": "stcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Guilin Qifengling Air Base, Guangxi",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "J-20A 5th gen. Also noted as transitioning at 'Guilin Tannan' per CASI J-20 2024. [Heritage Foundation 2026-01-20] [CASI J-20 Status 2024-04-29]"
+      },
+      {
+        "id": "stcaf_8bomberDiv",
+        "name": "8th Bomber Division",
+        "parent_id": "stcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Shaodong/Leiyang, Hunan",
+        "strength_pct": 100,
+        "is_elite": false,
+        "notes": "H-6K strategic bomber, H-6U tanker. One of PLAAF's remaining divisional bomber formations (not brigadeized). [Heritage Foundation 2026-01-20] [CASI/PLAAF Overview 2023]"
+      },
+      {
+        "id": "ntcaf_1bde",
+        "name": "1st Air Brigade (J-20A)",
+        "parent_id": "ntcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Anshan Teng'ao Air Base, Liaoning",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "J-20A 5th gen. [Heritage Foundation 2026-01-20]"
+      },
+      {
+        "id": "ntcaf_55bde",
+        "name": "55th Air Brigade (J-20A)",
+        "parent_id": "ntcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Jining/Qufu Air Base, Shandong",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "J-20A 5th gen. [Heritage Foundation 2026-01-20]"
+      },
+      {
+        "id": "ctcaf_56bde",
+        "name": "56th Aviation Brigade (J-20)",
+        "parent_id": "ctcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Zhengzhou Air Base, Henan",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "J-20 5th gen; adopted 2022. [CASI J-20 Status 2024-04-29]"
+      },
+      {
+        "id": "wtcaf_111bde",
+        "name": "111th Aviation Brigade (J-20)",
+        "parent_id": "wtcaf",
+        "parent_type": "second_tier",
+        "type": "fighter_brigade",
+        "hq": "Korla Air Base, Xinjiang",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "J-20; adopted 2022. Notable deployment to Xinjiang; counterterrorism/border deterrence role. [CASI J-20 Status 2024-04-29]"
+      },
+      {
+        "id": "plarf_611bde",
+        "name": "611th Missile Brigade (DF-26 IRBM)",
+        "parent_id": "plarf_b61",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Chizhou/Qingyang, Anhui",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-26 dual-capable (nuclear/conventional) IRBM. ~36 launchers. Major upgrade underway. MUCD 96711. First-tier strategic unit. [CNS PLARF OOB 2023] [Wikipedia PLARF] [POST-PURGE STATUS UNCERTAIN]"
+      },
+      {
+        "id": "plarf_612bde",
+        "name": "612th Missile Brigade (DF-21A MRBM, nuclear)",
+        "parent_id": "plarf_b61",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Leping, Jiangxi",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-21A nuclear MRBM. ~12 launchers. Possibly upgrading to DF-31AG. MUCD 96712. [CNS PLARF OOB 2023] [Wikipedia PLARF] [POST-PURGE STATUS UNCERTAIN]"
+      },
+      {
+        "id": "plarf_613bde",
+        "name": "613th Missile Brigade (DF-15B SRBM)",
+        "parent_id": "plarf_b61",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Shangrao, Jiangxi",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-15B conventional SRBM. ~27-36 launchers. Possibly upgrading to DF-17. MUCD 96713. [CNS PLARF OOB 2023] [Wikipedia PLARF]"
+      },
+      {
+        "id": "plarf_614bde",
+        "name": "614th Missile Brigade (DF-17 MRBM)",
+        "parent_id": "plarf_b61",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Yong'an, Fujian",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-17 conventional hypersonic glide vehicle MRBM. ~27-36 launchers. Transitioning from DF-11. MUCD 96714. [CNS PLARF OOB 2023] [Wikipedia PLARF]"
+      },
+      {
+        "id": "plarf_617bde",
+        "name": "617th Missile Brigade (DF-16 SRBM)",
+        "parent_id": "plarf_b61",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Jinhua, Zhejiang",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-16 conventional SRBM. ~27-36 launchers. MUCD 96717. [CNS PLARF OOB 2023] [Wikipedia PLARF]"
+      },
+      {
+        "id": "plarf_621bde",
+        "name": "621st Missile Brigade (DF-31AG ICBM, nuclear)",
+        "parent_id": "plarf_b62",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Yibin, Sichuan",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-31AG nuclear road-mobile ICBM. ~12 launchers. MUCD 96721. [CNS PLARF OOB 2023] [POST-PURGE STATUS UNCERTAIN]"
+      },
+      {
+        "id": "plarf_624bde",
+        "name": "624th Missile Brigade (DF-21D ASBM)",
+        "parent_id": "plarf_b62",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Danzhou, Hainan",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-21D anti-ship ballistic missile ('carrier killer'). ~24 launchers. Possibly upgrading. MUCD 96724. [CNS PLARF OOB 2023] [Wikipedia PLARF]"
+      },
+      {
+        "id": "plarf_625bde",
+        "name": "625th Missile Brigade (DF-26 IRBM)",
+        "parent_id": "plarf_b62",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Jianshui, Yunnan",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-26 dual-capable IRBM. ~36 launchers. MUCD 96725. [CNS PLARF OOB 2023]"
+      },
+      {
+        "id": "plarf_627bde",
+        "name": "627th Missile Brigade (DF-17 HGV)",
+        "parent_id": "plarf_b62",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Puning, Guangdong",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-17 hypersonic glide vehicle. Base expansion underway 2025. MUCD 96727. [Wikipedia PLARF]"
+      },
+      {
+        "id": "plarf_631bde",
+        "name": "631st Missile Brigade (DF-5B ICBM, nuclear/silo)",
+        "parent_id": "plarf_b63",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Jingzhou, Hubei",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-5B/possible DF-5C silo-based liquid ICBM. 6 silos operational, 6 more under construction per CNS 2023. MUCD 96731. [CNS PLARF OOB 2023] [Wikipedia PLARF] [POST-PURGE STATUS UNCERTAIN]"
+      },
+      {
+        "id": "plarf_641bde",
+        "name": "641st Missile Brigade (DF-31/DF-41 ICBM)",
+        "parent_id": "plarf_b64",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Hancheng, Shaanxi",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-31AG / transitioning to DF-41 nuclear road-mobile ICBM. New base completed 2024. MUCD 96741. [CNS PLARF OOB 2023] [Wikipedia PLARF] [POST-PURGE STATUS UNCERTAIN]"
+      },
+      {
+        "id": "plarf_644bde",
+        "name": "644th Missile Brigade (DF-41 ICBM)",
+        "parent_id": "plarf_b64",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Hanzhong, Shaanxi",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-41 nuclear road-mobile ICBM. 12 launchers. Called 'New Generation 1st Dongfeng Brigade'. MUCD 96744. [CNS PLARF OOB 2023] [Wikipedia PLARF]"
+      },
+      {
+        "id": "plarf_651bde",
+        "name": "651st Missile Brigade (DF-41 ICBM)",
+        "parent_id": "plarf_b65",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Chifeng, Inner Mongolia",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-41 nuclear ICBM. MUCD 96751. [CNS PLARF OOB 2023] [POST-PURGE STATUS UNCERTAIN]"
+      },
+      {
+        "id": "plarf_654bde",
+        "name": "654th Missile Brigade (DF-26 IRBM)",
+        "parent_id": "plarf_b65",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Haicheng/Dengshahe, Liaoning",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-26 dual-capable IRBM. MUCD 96754. [CNS PLARF OOB 2023] [Grey Dynamics 2024-07-30]"
+      },
+      {
+        "id": "plarf_656bde",
+        "name": "656th Missile Brigade (CJ-100/DF-100 LACM)",
+        "parent_id": "plarf_b65",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Linyi/Jinan, Shandong",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "CJ-100 (DF-100) long-range land-attack cruise missile. ~24 launchers. OT&E unit. MUCD 96756. [CNS PLARF OOB 2023] [Grey Dynamics 2024-07-30]"
+      },
+      {
+        "id": "plarf_661bde",
+        "name": "661st Missile Brigade (DF-5B ICBM, nuclear/silo)",
+        "parent_id": "plarf_b66",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Lushi, Henan",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-5B silo-based liquid ICBM. 6 silos. New base at Sanmenxia. MUCD 96761. [CNS PLARF OOB 2023] [Wikipedia PLARF] [POST-PURGE STATUS UNCERTAIN]"
+      },
+      {
+        "id": "plarf_666bde",
+        "name": "666th Missile Brigade (DF-26 IRBM)",
+        "parent_id": "plarf_b66",
+        "parent_type": "second_tier",
+        "type": "rocket_brigade",
+        "hq": "Xinyang, Henan",
+        "strength_pct": 100,
+        "is_elite": true,
+        "notes": "DF-26 dual-capable IRBM. ~36 launchers. MUCD 96766. [CNS PLARF OOB 2023] [Grey Dynamics 2024-07-30]"
+      }
+    ],
+    "fourth_tier": [],
+    "unit_equipment": [
+      {
+        "id": 1,
+        "unit_id": "71ga",
+        "unit_type": "second_tier",
+        "equipment_type": "tank",
+        "equipment_model": "Type 99A, Type 96A",
+        "authorized_count": 250,
+        "estimated_lost": 0
+      },
+      {
+        "id": 2,
+        "unit_id": "71ga",
+        "unit_type": "second_tier",
+        "equipment_type": "ifv",
+        "equipment_model": "ZBD-04A, ZBD-86A",
+        "authorized_count": 300,
+        "estimated_lost": 0
+      },
+      {
+        "id": 3,
+        "unit_id": "71ga",
+        "unit_type": "second_tier",
+        "equipment_type": "artillery_sp",
+        "equipment_model": "PLZ-05A, PCH191 MLRS",
+        "authorized_count": 72,
+        "estimated_lost": 0
+      },
+      {
+        "id": 4,
+        "unit_id": "73ga",
+        "unit_type": "second_tier",
+        "equipment_type": "apc",
+        "equipment_model": "ZBD-05 amphibious IFV, ZTD-05 assault gun",
+        "authorized_count": 200,
+        "estimated_lost": 0
+      },
+      {
+        "id": 5,
+        "unit_id": "73ga",
+        "unit_type": "second_tier",
+        "equipment_type": "lst",
+        "equipment_model": "Type 271 landing craft, Type 074A landing craft",
+        "authorized_count": 24,
+        "estimated_lost": 0
+      },
+      {
+        "id": 6,
+        "unit_id": "74ga",
+        "unit_type": "second_tier",
+        "equipment_type": "apc",
+        "equipment_model": "ZBD-05, ZTD-05",
+        "authorized_count": 200,
+        "estimated_lost": 0
+      },
+      {
+        "id": 7,
+        "unit_id": "78ga",
+        "unit_type": "second_tier",
+        "equipment_type": "tank",
+        "equipment_model": "Type 99A, Type 96B",
+        "authorized_count": 300,
+        "estimated_lost": 0
+      },
+      {
+        "id": 8,
+        "unit_id": "78ga",
+        "unit_type": "second_tier",
+        "equipment_type": "ifv",
+        "equipment_model": "ZBD-04A, ZBD-86A",
+        "authorized_count": 280,
+        "estimated_lost": 0
+      },
+      {
+        "id": 9,
+        "unit_id": "nsf",
+        "unit_type": "second_tier",
+        "equipment_type": "destroyer",
+        "equipment_model": "Type 055, Type 052D",
+        "authorized_count": 8,
+        "estimated_lost": 0
+      },
+      {
+        "id": 10,
+        "unit_id": "nsf",
+        "unit_type": "second_tier",
+        "equipment_type": "frigate",
+        "equipment_model": "Type 054A",
+        "authorized_count": 8,
+        "estimated_lost": 0
+      },
+      {
+        "id": 11,
+        "unit_id": "nsf",
+        "unit_type": "second_tier",
+        "equipment_type": "submarine",
+        "equipment_model": "Type 094A (SSBN), Type 093A (SSN), Type 039A (SSK)",
+        "authorized_count": 12,
+        "estimated_lost": 0
+      },
+      {
+        "id": 12,
+        "unit_id": "ssf_plan",
+        "unit_type": "second_tier",
+        "equipment_type": "destroyer",
+        "equipment_model": "Type 055, Type 052DL, Type 052C",
+        "authorized_count": 10,
+        "estimated_lost": 0
+      },
+      {
+        "id": 13,
+        "unit_id": "ssf_plan",
+        "unit_type": "second_tier",
+        "equipment_type": "frigate",
+        "equipment_model": "Type 054A",
+        "authorized_count": 10,
+        "estimated_lost": 0
+      },
+      {
+        "id": 14,
+        "unit_id": "ssf_plan",
+        "unit_type": "second_tier",
+        "equipment_type": "submarine",
+        "equipment_model": "Type 094 (SSBN), Type 093 (SSN), Type 039B (SSK)",
+        "authorized_count": 20,
+        "estimated_lost": 0
+      },
+      {
+        "id": 15,
+        "unit_id": "ssf_plan",
+        "unit_type": "second_tier",
+        "equipment_type": "lst",
+        "equipment_model": "Type 075 LHD, Type 071 LPD, Type 072A LST",
+        "authorized_count": 8,
+        "estimated_lost": 0
+      },
+      {
+        "id": 16,
+        "unit_id": "nsf_surfaceflot",
+        "unit_type": "third_tier",
+        "equipment_type": "destroyer",
+        "equipment_model": "Type 055 Renhai, Type 052D Luyang III",
+        "authorized_count": 6,
+        "estimated_lost": 0
+      },
+      {
+        "id": 17,
+        "unit_id": "ssf_surfaceflot",
+        "unit_type": "third_tier",
+        "equipment_type": "destroyer",
+        "equipment_model": "Type 055 Renhai, Type 052DL",
+        "authorized_count": 6,
+        "estimated_lost": 0
+      },
+      {
+        "id": 18,
+        "unit_id": "etcaf_9bde",
+        "unit_type": "third_tier",
+        "equipment_type": "fighter",
+        "equipment_model": "J-20",
+        "authorized_count": 24,
+        "estimated_lost": 0
+      },
+      {
+        "id": 19,
+        "unit_id": "etcaf_8bde",
+        "unit_type": "third_tier",
+        "equipment_type": "fighter",
+        "equipment_model": "J-20A",
+        "authorized_count": 24,
+        "estimated_lost": 0
+      },
+      {
+        "id": 20,
+        "unit_id": "stcaf_8bomberDiv",
+        "unit_type": "third_tier",
+        "equipment_type": "bomber",
+        "equipment_model": "H-6K, H-6U (tanker)",
+        "authorized_count": 36,
+        "estimated_lost": 0
+      },
+      {
+        "id": 21,
+        "unit_id": "plarf_611bde",
+        "unit_type": "third_tier",
+        "equipment_type": "irbm",
+        "equipment_model": "DF-26",
+        "authorized_count": 36,
+        "estimated_lost": 0
+      },
+      {
+        "id": 22,
+        "unit_id": "plarf_612bde",
+        "unit_type": "third_tier",
+        "equipment_type": "mrbm",
+        "equipment_model": "DF-21A",
+        "authorized_count": 12,
+        "estimated_lost": 0
+      },
+      {
+        "id": 23,
+        "unit_id": "plarf_614bde",
+        "unit_type": "third_tier",
+        "equipment_type": "mrbm",
+        "equipment_model": "DF-17",
+        "authorized_count": 36,
+        "estimated_lost": 0
+      },
+      {
+        "id": 24,
+        "unit_id": "plarf_624bde",
+        "unit_type": "third_tier",
+        "equipment_type": "mrbm",
+        "equipment_model": "DF-21D (anti-ship ballistic missile)",
+        "authorized_count": 24,
+        "estimated_lost": 0
+      },
+      {
+        "id": 25,
+        "unit_id": "plarf_625bde",
+        "unit_type": "third_tier",
+        "equipment_type": "irbm",
+        "equipment_model": "DF-26",
+        "authorized_count": 36,
+        "estimated_lost": 0
+      },
+      {
+        "id": 26,
+        "unit_id": "plarf_631bde",
+        "unit_type": "third_tier",
+        "equipment_type": "icbm",
+        "equipment_model": "DF-5B (silo-based liquid ICBM)",
+        "authorized_count": 6,
+        "estimated_lost": 0
+      },
+      {
+        "id": 27,
+        "unit_id": "plarf_641bde",
+        "unit_type": "third_tier",
+        "equipment_type": "icbm",
+        "equipment_model": "DF-31AG / DF-41",
+        "authorized_count": 12,
+        "estimated_lost": 0
+      },
+      {
+        "id": 28,
+        "unit_id": "plarf_644bde",
+        "unit_type": "third_tier",
+        "equipment_type": "icbm",
+        "equipment_model": "DF-41",
+        "authorized_count": 12,
+        "estimated_lost": 0
+      },
+      {
+        "id": 29,
+        "unit_id": "plarf_651bde",
+        "unit_type": "third_tier",
+        "equipment_type": "icbm",
+        "equipment_model": "DF-41",
+        "authorized_count": 12,
+        "estimated_lost": 0
+      },
+      {
+        "id": 30,
+        "unit_id": "plarf_656bde",
+        "unit_type": "third_tier",
+        "equipment_type": "cruise_missile",
+        "equipment_model": "CJ-100 (DF-100) LACM",
+        "authorized_count": 24,
+        "estimated_lost": 0
+      },
+      {
+        "id": 31,
+        "unit_id": "plarf_661bde",
+        "unit_type": "third_tier",
+        "equipment_type": "icbm",
+        "equipment_model": "DF-5B (silo-based liquid ICBM)",
+        "authorized_count": 6,
+        "estimated_lost": 0
+      },
+      {
+        "id": 32,
+        "unit_id": "plarf_666bde",
+        "unit_type": "third_tier",
+        "equipment_type": "irbm",
+        "equipment_model": "DF-26",
+        "authorized_count": 36,
+        "estimated_lost": 0
+      },
+      {
+        "id": 33,
+        "unit_id": "planmc",
+        "unit_type": "second_tier",
+        "equipment_type": "apc",
+        "equipment_model": "ZBD-05, ZTD-05, ZBL-09",
+        "authorized_count": 600,
+        "estimated_lost": 0
+      },
+      {
+        "id": 34,
+        "unit_id": "esf",
+        "unit_type": "second_tier",
+        "equipment_type": "destroyer",
+        "equipment_model": "Sovremenny-class (Type 956), Type 052D",
+        "authorized_count": 8,
+        "estimated_lost": 0
+      },
+      {
+        "id": 35,
+        "unit_id": "esf",
+        "unit_type": "second_tier",
+        "equipment_type": "frigate",
+        "equipment_model": "Type 054A",
+        "authorized_count": 10,
+        "estimated_lost": 0
+      },
+      {
+        "id": 36,
+        "unit_id": "esf",
+        "unit_type": "second_tier",
+        "equipment_type": "submarine",
+        "equipment_model": "Type 039A/B Yuan-class (SSK)",
+        "authorized_count": 10,
+        "estimated_lost": 0
+      }
+    ]
+  },
+  "sources_consulted": [
+    "DOD China Military Power Report 2024 (https://media.defense.gov/2024/Dec/18/2003574087/-1/-1/0/MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2024.PDF) — PDF unavailable directly; structured data cross-referenced",
+    "CNS/Middlebury PLARF Order of Battle 2023 (https://nonproliferation.org/wp-content/uploads/2023/07/peoples_liberation_army_rocket_force_order_of_battle_2023.pdf)",
+    "Air University CASI — The PLA's New Information Support Force, Dr. Brendan Mulvaney, April 2024 (https://www.airuniversity.af.edu/CASI/Display/Article/3749754/the-plas-new-information-support-force/)",
+    "Air University CASI — Status of 41st Aviation Brigade J-20 Transition, April 2024 (https://www.airuniversity.af.edu/Portals/10/CASI/documents/Research/PLAAF/2024-04-29%2041st%20Aviation%20BDE%20J-20s.pdf)",
+    "Air University CASI / CIRA Exovera — Current Overview of PLAAF Organizational Structure, 2023 (https://cira.exovera.com/wp-content/uploads/2023/08/PLAAF-Overview.pdf)",
+    "Heritage Foundation — Appendix E: PLAAF Top-Tier Bases for Taiwan Contingency, January 2026 (https://www.heritage.org/tidalwave/appendices/appendix-e-plaaf-top-tier-bases-taiwan-contingency)",
+    "Grey Dynamics — PLARF: China's Tactical Missile Force, July 2024 (https://greydynamics.com/plarf-chinas-tactical-missile-force/)",
+    "Wikipedia — People's Liberation Army Rocket Force (https://en.wikipedia.org/wiki/People%27s_Liberation_Army_Rocket_Force)",
+    "Wikipedia — People's Liberation Army Navy (https://en.wikipedia.org/wiki/People%27s_Liberation_Army_Navy)",
+    "Wikipedia — People's Liberation Army Ground Force (https://en.wikipedia.org/wiki/People%27s_Liberation_Army_Ground_Force)",
+    "Wikipedia — Individual Group Army articles (71st through 83rd)",
+    "Wikipedia — PLA Air Force Airborne Corps (https://en.wikipedia.org/wiki/People%27s_Liberation_Army_Air_Force_Airborne_Corps)",
+    "Wikipedia — Theater command (https://en.wikipedia.org/wiki/Theater_command)",
+    "Wikipedia — Northern Theater Command (https://en.wikipedia.org/wiki/Northern_Theater_Command)",
+    "Wikipedia — South Sea Fleet (https://en.wikipedia.org/wiki/South_Sea_Fleet)",
+    "US Army War College SSI — A Baseline Assessment of the PLA Army Border Reinforcement Operations, April 2024 (https://ssi.armywarcollege.edu/SSI-Media/Recent-Publications/Display/Article/3735300/a-baseline-assessment-of-the-pla-armys-border-reinforcement-operations-in-the-a/)",
+    "CNA — Military Purges at China's Fourth Plenum, November 2025 (https://www.cna.org/our-media/indepth/2025/11/military-purges-at-chinas-fourth-plenum-have-implications-for-readiness)",
+    "Andrew Erickson / CMSI — China's New Military Commanders, February 2024 (https://www.andrewerickson.com/2024/02/chinas-new-military-commanders-reflect-xi-jinpings-naval-ambitions/)",
+    "Andrew Erickson / CMSI Note 17 — Wang Houbin PLARF Commander purge, October 2025 (https://www.andrewerickson.com/2025/10/cmsi-note-17-replacement-removed-vadm-general-wang-houbin-naval-star-turned-rocket-force-commanders-terminal-trajectory/)",
+    "Chinese Government — Xi promotes Yang Zhibin and Han Shengyan, December 2025 (https://english.www.gov.cn/news/202512/22/content_WS69492a0bc6d00ca5f9a0838d.html)",
+    "Naval News — Reviewing the Chinese Navy in 2025, January 2026 (https://www.navalnews.com/naval-news/2026/01/reviewing-the-chinese-navy-in-2025-part-i-the-surface-fleet/)",
+    "Gunners Shot — The PLA Marine Corps (PLANMC), January 2024 (https://gunnersshot.com/2024/01/18/the-pla-marine-corps-planmc-by-lt-gen-p-r-shankar-r/)",
+    "MoD China — Armed Forces Military Services (https://eng.mod.gov.cn/2025xb/A/A_251600/index.html)",
+    "USNWC CMSI — Organizational Changes to PLAN Submarine Force (https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?article=1027&context=cmsi-maritime-reports)"
+  ]
+}
